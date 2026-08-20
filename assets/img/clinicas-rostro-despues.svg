@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Perfil estilizado después del tratamiento, con piel luminosa y destellos">
+  <defs>
+    <linearGradient id="cliRDesBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6f5330"/><stop offset="1" stop-color="#8d6b3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#cliRDesBg)"/>
+  <circle cx="460" cy="300" r="230" fill="#fdfbf8" opacity=".16"/>
+  <!-- perfil (mismo encuadre que el antes) -->
+  <path d="M460 130 C410 142 384 180 382 224 L354 292 L384 302 C374 312 374 322 384 330 C372 338 372 350 386 356 C378 378 392 396 416 402 C442 408 454 424 452 448 L452 492 C392 502 352 520 344 540 L710 540 C704 514 662 494 600 486 L600 444 C628 400 640 344 636 268 C630 178 552 122 460 130 Z" fill="#fdfbf8"/>
+  <!-- pelo recogido -->
+  <path d="M460 130 C552 122 630 178 636 268 C640 330 632 380 612 420 C618 360 610 300 588 262 C560 214 516 190 460 196 C422 200 398 216 386 232 C392 178 418 140 460 130 Z" fill="#3b342e" opacity=".9"/>
+  <circle cx="642" cy="204" r="42" fill="#3b342e" opacity=".9"/>
+  <!-- ceja y ojo cerrado -->
+  <path d="M400 240 C416 232 434 232 448 240" fill="none" stroke="#3b342e" stroke-width="8" stroke-linecap="round"/>
+  <path d="M406 274 C418 282 434 282 446 276" fill="none" stroke="#3b342e" stroke-width="7" stroke-linecap="round"/>
+  <!-- piel luminosa: rubor y brillos -->
+  <circle cx="482" cy="342" r="26" fill="#c98d84" opacity=".55"/>
+  <path d="M520 300 C548 316 562 344 560 380" fill="none" stroke="#fdfbf8" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+  <path d="M468 420 C492 434 522 436 546 426" fill="none" stroke="#c98d84" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+  <!-- destellos -->
+  <g fill="#fdfbf8">
+    <path d="M258 170 l12 34 34 12 -34 12 -12 34 -12 -34 -34 -12 34 -12 z"/>
+    <path d="M726 300 l10 28 28 10 -28 10 -10 28 -10 -28 -28 -10 28 -10 z" opacity=".85"/>
+    <path d="M300 430 l8 22 22 8 -22 8 -8 22 -8 -22 -22 -8 22 -8 z" opacity=".7"/>
+  </g>
+</svg>

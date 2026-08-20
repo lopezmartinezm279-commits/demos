@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solar Guadalquivir — Placas solares con ahorro real en Sevilla</title>
+<meta name="description" content="Instalación de placas solares en Sevilla en 1 día. Ahorra hasta un 55 % en tu factura de luz, con garantía de 25 años, ayudas y financiación sin entrada.">
+<link rel="icon" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/themes.css">
+<script src="assets/js/app.js" defer></script>
+</head>
+<body class="theme-solar" data-sector="solar" data-wa="Hola, quiero un estudio de ahorro con placas solares">
+
+<div id="demobar"></div>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="logo" href="#top">Solar Guadalquivir</a>
+    <button class="nav-toggle" data-nav-toggle aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" data-nav>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#instalacion">Qué incluye</a>
+      <a href="#casos">Casos reales</a>
+      <a href="#ayudas">Ayudas</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#faq">Dudas</a>
+    </nav>
+    <div class="site-header__cta"><a class="btn btn--primary" href="#estudio">Estudio gratuito</a></div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- 1. HERO con calculadora -->
+  <section class="hero hero--card">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Energía solar en Sevilla y su área metropolitana</p>
+        <h1 class="hero__title">Deja de alquilar tu luz: págala un 55 % más barata desde el primer mes</h1>
+        <p class="hero__lead">Diseñamos, instalamos y legalizamos tu instalación fotovoltaica en un solo día. Tú solo tienes que ver bajar la factura. Con 300 días de sol al año en Sevilla, cada mes sin placas es dinero que se queda en el tejado.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--lg" href="#estudio">Pedir estudio gratuito</a>
+          <a class="btn btn--ghost btn--lg" href="#casos">Ver casos reales</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat"><span class="stat__num">480+</span><span class="stat__label">instalaciones en Sevilla</span></div>
+          <div class="stat"><span class="stat__num">55 %</span><span class="stat__label">de ahorro medio en factura</span></div>
+          <div class="stat"><span class="stat__num">25 años</span><span class="stat__label">de garantía en paneles</span></div>
+        </div>
+      </div>
+      <div class="hero__card" data-calc>
+        <h2>Calcula tu ahorro en 10 segundos</h2>
+        <p>Escribe lo que pagas de luz al mes y mira lo que dejarías de pagar con placas.</p>
+        <div class="field">
+          <label for="consumo">Tu factura media de luz (€/mes)</label>
+          <input id="consumo" name="consumo" type="number" inputmode="numeric" min="20" max="2000" step="5" value="120">
+        </div>
+        <p><strong>Ahorro al mes:</strong> <span data-calc-out="ahorro-mes"></span></p>
+        <p><strong>Ahorro al año:</strong> <span data-calc-out="ahorro-ano"></span></p>
+        <p><strong>Ahorro en 25 años:</strong> <span data-calc-out="ahorro-25"></span></p>
+        <a class="btn btn--primary" href="#estudio">Quiero mi estudio detallado gratis</a>
+        <p class="form__note">Estimación orientativa con un 55 % de autoconsumo. El estudio gratuito afina la cifra con tu tejado y tu consumo real.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. CÓMO FUNCIONA -->
+  <section class="section" id="como-funciona">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Cómo funciona</p>
+        <h2>De la primera llamada a producir tu propia luz en menos de 3 semanas</h2>
+        <p class="lead">Nos ocupamos de todo el papeleo. Tú solo firmas y enciendes la app.</p>
+      </div>
+      <ol class="steps reveal">
+        <li class="step">
+          <h3>Estudio gratuito</h3>
+          <p>Analizamos tu factura y tu tejado por satélite y te damos una cifra de ahorro real, sin visitas comerciales pesadas ni compromiso.</p>
+        </li>
+        <li class="step">
+          <h3>Diseño e ingeniería</h3>
+          <p>Un ingeniero dimensiona la instalación para tu consumo: número de paneles, orientación, inversor y, si compensa, batería.</p>
+        </li>
+        <li class="step">
+          <h3>Instalación en 1 día</h3>
+          <p>Nuestro equipo propio (no subcontratas) monta la instalación en una jornada. Dejamos el tejado como estaba, pero produciendo.</p>
+        </li>
+        <li class="step">
+          <h3>Legalización y ayudas</h3>
+          <p>Tramitamos boletín, compensación de excedentes con tu comercializadora y todas las bonificaciones a las que tengas derecho.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 3. QUÉ INCLUYE -->
+  <section class="section section--alt" id="instalacion">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Qué incluye</p>
+        <h2>Instalación llave en mano, sin sorpresas en el presupuesto</h2>
+        <p class="lead">Precio cerrado por escrito. Todo esto entra en tu instalación.</p>
+      </div>
+      <div class="grid grid--3 reveal">
+        <div class="feature">
+          <span class="feature__icon">☀️</span>
+          <h3>Paneles de alto rendimiento</h3>
+          <p>Módulos de 500 W de primera marca europea, con degradación garantizada por debajo del 0,5 % anual.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">⚡</span>
+          <h3>Inversor híbrido</h3>
+          <p>Preparado para añadir batería el día que quieras, sin cambiar nada de la instalación.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">📱</span>
+          <h3>Monitorización en el móvil</h3>
+          <p>App en español para ver en tiempo real lo que produces, lo que consumes y lo que ahorras cada día.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">🛡️</span>
+          <h3>Garantía de 25 años</h3>
+          <p>25 años en paneles y producción, 10 en inversor y 5 en la mano de obra. Todo por escrito.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">📋</span>
+          <h3>Legalización completa</h3>
+          <p>Boletín, registro en la Junta de Andalucía y alta de compensación de excedentes. No tocas un papel.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">🔋</span>
+          <h3>Batería opcional</h3>
+          <p>Si tu consumo es de tarde-noche, te calculamos si la batería compensa. Si no compensa, te lo decimos igual.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. CASOS DE ÉXITO -->
+  <section class="section" id="casos">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Casos reales</p>
+        <h2>Lo que ahorran nuestros clientes, con cifras encima de la mesa</h2>
+        <p class="lead">Tres instalaciones de 2025 con datos de la app de monitorización.</p>
+      </div>
+      <div class="grid grid--3 reveal">
+        <article class="card">
+          <img src="assets/img/solar-vivienda-sevilla-este.svg" width="800" height="600" alt="Placas solares instaladas en una vivienda de Sevilla Este" loading="lazy">
+          <div class="card__body">
+            <h3>Vivienda en Sevilla Este</h3>
+            <p>6 paneles (3 kW) para una familia de cuatro. Factura media antes: 118 €/mes. Ahora: 51 €/mes.</p>
+            <p><strong>804 € ahorrados al año · amortizada en 5,9 años</strong></p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/img/solar-chalet-montequinto.svg" width="800" height="600" alt="Instalación fotovoltaica con batería en un chalet de Montequinto" loading="lazy">
+          <div class="card__body">
+            <h3>Chalet en Montequinto</h3>
+            <p>12 paneles (6 kW) con batería de 5 kWh y piscina. Factura antes: 245 €/mes. Ahora: 78 €/mes.</p>
+            <p><strong>2.004 € ahorrados al año · amortizada en 6,8 años</strong></p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/img/solar-nave-alcala.svg" width="800" height="600" alt="Cubierta solar de una nave industrial en Alcalá de Guadaíra" loading="lazy">
+          <div class="card__body">
+            <h3>Nave en Alcalá de Guadaíra</h3>
+            <p>Cubierta de 30 kW para un taller de carpintería metálica que consume de día, justo cuando el sol produce.</p>
+            <p><strong>7.900 € ahorrados al año · amortizada en 4,2 años</strong></p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. AYUDAS Y FINANCIACIÓN -->
+  <section class="section section--alt" id="ayudas">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Ayudas y financiación</p>
+        <h2>Entre ayudas y financiación, empezar puede costarte 0 €</h2>
+        <p class="lead">Tramitamos nosotros todas las bonificaciones. Tú solo las cobras.</p>
+      </div>
+      <div class="grid grid--2 reveal">
+        <div class="feature">
+          <span class="feature__icon">🏛️</span>
+          <h3>Bonificación del IBI</h3>
+          <p>El Ayuntamiento de Sevilla bonifica hasta el 50 % del IBI durante varios años por instalar autoconsumo. En una vivienda media son entre 200 y 400 € al año que vuelven a tu bolsillo.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">🇪🇺</span>
+          <h3>Fondos y deducciones</h3>
+          <p>Te tramitamos las ayudas autonómicas vigentes y la deducción en el IRPF de hasta el 40 % por mejora de eficiencia energética. Presentamos nosotros toda la documentación.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">💶</span>
+          <h3>Financiación a 8 años sin entrada</h3>
+          <p>Desde 58 €/mes para una instalación tipo de 5 paneles. En la mayoría de los casos la cuota es menor que lo que dejas de pagar de luz: ahorras desde el mes uno.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">🧾</span>
+          <h3>Compensación de excedentes</h3>
+          <p>La luz que produces y no usas se descuenta de tu factura. Damos de alta la compensación con tu comercializadora, sin que cambies de compañía si no quieres.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. ZONAS -->
+  <section class="section" id="zonas">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Zonas de instalación</p>
+        <h2>Instalamos en Sevilla capital y en toda el área metropolitana</h2>
+        <p class="lead">Equipo propio con base en Sevilla Este. Si tu municipio no aparece, pregúntanos.</p>
+      </div>
+      <div class="chips reveal">
+        <span class="chip">Sevilla Este</span>
+        <span class="chip">Nervión</span>
+        <span class="chip">Montequinto</span>
+        <span class="chip">Dos Hermanas</span>
+        <span class="chip">Alcalá de Guadaíra</span>
+        <span class="chip">Mairena del Aljarafe</span>
+        <span class="chip">Tomares</span>
+        <span class="chip">Bormujos</span>
+        <span class="chip">La Rinconada</span>
+        <span class="chip">Utrera</span>
+        <span class="chip">Carmona</span>
+        <span class="chip">Espartinas</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. OPINIONES -->
+  <section class="section section--alt" id="opiniones">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Opiniones</p>
+        <h2>4,9 sobre 5 en más de 210 reseñas</h2>
+        <p class="lead">Lo que cuentan clientes reales después de su primer verano con placas.</p>
+      </div>
+      <div class="reviews reveal">
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"Pagaba 130 € de luz y en julio, con el aire puesto todo el día, me han venido 42 €. La instalación la hicieron en una mañana y me dejaron el tejado impecable. El de la app me tiene enganchado mirando la producción."</p>
+          <p class="review__author">José Antonio Vargas</p>
+          <p class="review__zone">Sevilla Este</p>
+        </article>
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"Pedí tres presupuestos y fueron los únicos que me dijeron que la batería NO me compensaba. Esa honradez me decidió. Del papeleo del IBI se encargaron ellos y ya tengo la bonificación concedida."</p>
+          <p class="review__author">Carmen Delgado</p>
+          <p class="review__zone">Montequinto</p>
+        </article>
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"Para la nave nos hicieron un estudio con nuestras curvas de consumo reales, no una plantilla. Vamos camino de amortizarla antes de lo previsto. Serios con los plazos, que en este sector no es poco."</p>
+          <p class="review__author">Francisco J. Romero</p>
+          <p class="review__zone">Alcalá de Guadaíra</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Dudas frecuentes</p>
+        <h2>Lo que todo el mundo pregunta antes de decidirse</h2>
+      </div>
+      <div class="faq reveal">
+        <details class="faq__item">
+          <summary>¿Y si no tengo tejado propio? Vivo en un piso</summary>
+          <div class="faq__body">
+            <p>Puedes sumarte al autoconsumo compartido: la instalación se hace en la cubierta del edificio con acuerdo de la comunidad y el ahorro se reparte entre los vecinos adheridos. Preparamos nosotros la propuesta para presentarla en la junta de propietarios, con cifras de ahorro por vivienda.</p>
+          </div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Necesito batería sí o sí?</summary>
+          <div class="faq__body">
+            <p>No. Con la compensación de excedentes, la luz que no consumes se descuenta de la factura. La batería compensa cuando tu consumo fuerte es de noche. En el estudio te damos las dos cifras, con y sin batería, y decides tú. El inversor que montamos es híbrido, así que puedes añadirla más adelante sin coste extra de adaptación.</p>
+          </div>
+        </details>
+        <details class="faq__item">
+          <summary>¿La financiación necesita aval o entrada?</summary>
+          <div class="faq__body">
+            <p>No. Trabajamos con financiación al consumo a hasta 8 años, sin entrada y sin aval, solo con la documentación habitual de solvencia (DNI, nómina o declaración). La aprobación suele llegar en 24-48 horas y puedes amortizar anticipadamente sin penalización.</p>
+          </div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Qué mantenimiento llevan las placas?</summary>
+          <div class="faq__body">
+            <p>Muy poco: una limpieza con agua una o dos veces al año (más si hay calima) y poco más. La app avisa sola si un panel rinde menos de lo normal. Ofrecemos un plan de mantenimiento opcional con revisión anual, limpieza y termografía por 89 €/año, pero no es obligatorio.</p>
+          </div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Cuánto tarda todo el proceso?</summary>
+          <div class="faq__body">
+            <p>Del sí al interruptor: unas 2-3 semanas. El estudio está en 48 horas, la instalación se hace en 1 día y el resto es tramitación (licencia, boletín y alta de compensación), que gestionamos nosotros mientras tu instalación ya produce.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. FORMULARIO + MAPA -->
+  <section class="section section--alt" id="contacto">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Estudio gratuito</p>
+        <h2>Pide tu estudio de ahorro sin compromiso</h2>
+        <p class="lead">En 48 horas tienes tu cifra de ahorro real. Sin visitas comerciales ni llamadas pesadas.</p>
+      </div>
+      <div class="grid grid--2 reveal">
+        <form class="form" id="estudio" data-demo-form data-toast="DEMO: este estudio llegaría a tu WhatsApp y a tu email al instante">
+          <div class="field">
+            <label for="est-nombre">Nombre</label>
+            <input id="est-nombre" name="nombre" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="est-telefono">Teléfono</label>
+            <input id="est-telefono" name="telefono" type="tel" autocomplete="tel" required>
+          </div>
+          <div class="field">
+            <label for="est-consumo">Factura media de luz (€/mes)</label>
+            <input id="est-consumo" name="consumo-mensual" type="number" inputmode="numeric" min="20" max="5000" placeholder="120" required>
+          </div>
+          <div class="field">
+            <label for="est-vivienda">Tipo de vivienda</label>
+            <select id="est-vivienda" name="vivienda" required>
+              <option value="">Elige una opción</option>
+              <option value="piso">Piso</option>
+              <option value="adosado">Adosado</option>
+              <option value="chalet">Chalet</option>
+              <option value="nave">Nave / negocio</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="est-municipio">Municipio</label>
+            <input id="est-municipio" name="municipio" type="text" placeholder="Sevilla, Dos Hermanas, Tomares…" required>
+          </div>
+          <div class="field field--check">
+            <input id="est-privacidad" name="privacidad" type="checkbox" required>
+            <label for="est-privacidad">Acepto que me contactéis para enviarme el estudio</label>
+          </div>
+          <button class="btn btn--primary btn--lg" type="submit">Recibir mi estudio gratis</button>
+          <p class="form__note">Respondemos en menos de 48 h laborables. Tus datos solo se usan para el estudio.</p>
+        </form>
+        <div>
+          <div class="map">
+            <iframe title="Ubicación de Solar Guadalquivir en Sevilla" loading="lazy"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-5.9450,37.3990,-5.9250,37.4110&layer=mapnik&marker=37.4050,-5.9350"></iframe>
+          </div>
+          <p>Avda. de las Ciencias 27, local 4 · Sevilla Este<br>
+          Lunes a viernes de 9:00 a 18:30 · <strong>692 20 39 81</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div>
+      <strong>Solar Guadalquivir</strong>
+      <p>Avda. de las Ciencias 27, local 4<br>41020 Sevilla</p>
+    </div>
+    <div>
+      <strong>Contacto</strong>
+      <p>692 20 39 81<br>hola@solarguadalquivir.es</p>
+    </div>
+    <div>
+      <strong>Horario</strong>
+      <p>Lunes a viernes: 9:00 – 18:30<br>Sábados y domingos: cerrado</p>
+    </div>
+  </div>
+  <div class="container">
+    <p class="form__note">© <span data-year></span> Solar Guadalquivir. Demo de ejemplo — negocio ficticio.</p>
+  </div>
+  <span class="demo-ribbon">DEMO</span>
+</footer>
+</body>
+</html>

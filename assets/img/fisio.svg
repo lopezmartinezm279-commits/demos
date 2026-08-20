@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Columna vertebral y pie, símbolos de fisioterapia y podología">
+  <defs>
+    <linearGradient id="fBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3c5743"/><stop offset="1" stop-color="#4f6f56"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fBg)"/>
+  <circle cx="620" cy="470" r="190" fill="#b25b3d" opacity=".16"/>
+  <circle cx="170" cy="140" r="140" fill="#faf7f0" opacity=".08"/>
+  <!-- columna vertebral -->
+  <g fill="#faf7f0">
+    <rect x="228" y="96"  width="120" height="46" rx="20"/>
+    <rect x="238" y="156" width="118" height="46" rx="20"/>
+    <rect x="250" y="216" width="114" height="46" rx="20"/>
+    <rect x="258" y="276" width="110" height="46" rx="20"/>
+    <rect x="252" y="336" width="112" height="46" rx="20"/>
+    <rect x="238" y="396" width="118" height="46" rx="20"/>
+    <rect x="222" y="456" width="124" height="46" rx="20"/>
+    <path d="M246 516 L 330 516 L 306 574 L 270 574 Z"/>
+  </g>
+  <g fill="#4f6f56" opacity=".55">
+    <rect x="272" y="150" width="52" height="10" rx="5"/>
+    <rect x="282" y="210" width="52" height="10" rx="5"/>
+    <rect x="288" y="270" width="52" height="10" rx="5"/>
+    <rect x="286" y="330" width="52" height="10" rx="5"/>
+    <rect x="276" y="390" width="52" height="10" rx="5"/>
+    <rect x="262" y="450" width="52" height="10" rx="5"/>
+  </g>
+  <!-- pie -->
+  <g fill="#b25b3d" transform="translate(516,232)">
+    <path d="M92 96 C 132 96, 152 138, 148 190 C 144 244, 116 292, 116 330 C 116 358, 96 372, 68 372 C 36 372, 16 352, 16 320 C 16 268, 40 226, 44 178 C 48 128, 56 96, 92 96 Z"/>
+    <circle cx="150" cy="74" r="26"/>
+    <circle cx="196" cy="94" r="21"/>
+    <circle cx="228" cy="128" r="17"/>
+    <circle cx="250" cy="166" r="14"/>
+  </g>
+</svg>

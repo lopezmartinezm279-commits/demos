@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Placa solar y sol">
+  <defs>
+    <linearGradient id="sBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0284c7"/><stop offset="1" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sBg)"/>
+  <!-- sol -->
+  <g transform="translate(618,148)">
+    <g stroke="#fbbf24" stroke-width="14" stroke-linecap="round" fill="none">
+      <path d="M0 -116 V -86"/><path d="M0 86 V 116"/>
+      <path d="M-116 0 H -86"/><path d="M86 0 H 116"/>
+      <path d="M-82 -82 l21 21"/><path d="M61 61 l21 21"/>
+      <path d="M82 -82 l-21 21"/><path d="M-61 61 l-21 21"/>
+    </g>
+    <circle r="66" fill="#fbbf24"/>
+  </g>
+  <!-- placa en perspectiva -->
+  <g transform="translate(400,430) skewY(-11) translate(-400,-430)">
+    <rect x="186" y="318" width="428" height="212" rx="10" fill="#0f2f45"/>
+    <rect x="196" y="328" width="408" height="192" rx="6" fill="#123c58"/>
+    <g fill="#2aa5d6" opacity=".85">
+      <rect x="206" y="338" width="126" height="84" rx="3"/>
+      <rect x="337" y="338" width="126" height="84" rx="3"/>
+      <rect x="468" y="338" width="126" height="84" rx="3"/>
+      <rect x="206" y="427" width="126" height="84" rx="3"/>
+      <rect x="337" y="427" width="126" height="84" rx="3"/>
+      <rect x="468" y="427" width="126" height="84" rx="3"/>
+    </g>
+  </g>
+  <!-- soportes -->
+  <g fill="#0f2f45">
+    <rect x="268" y="486" width="20" height="76" rx="6"/>
+    <rect x="516" y="452" width="20" height="76" rx="6"/>
+  </g>
+  <rect x="150" y="556" width="500" height="12" rx="6" fill="#0b3b22" opacity=".5"/>
+</svg>

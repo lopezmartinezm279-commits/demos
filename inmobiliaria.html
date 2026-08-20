@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inmobiliaria Giralda — Compra y venta de viviendas en Sevilla</title>
+<meta name="description" content="Inmobiliaria en el Centro de Sevilla. Vendemos tu casa en una media de 31 días: valoración gratuita, home staging, visitas filtradas y firma en notaría.">
+<link rel="icon" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/themes.css">
+<script src="assets/js/app.js" defer></script>
+</head>
+<body class="theme-inmobiliaria" data-sector="inmobiliaria" data-wa="Hola, me interesa una vivienda">
+
+<div id="demobar"></div>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="logo" href="#top">Inmobiliaria Giralda</a>
+    <button class="nav-toggle" data-nav-toggle aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" data-nav>
+      <a href="#inmuebles">Inmuebles</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Cómo vendemos</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#faq">Preguntas</a>
+    </nav>
+    <div class="site-header__cta"><a class="btn btn--primary" href="#valoracion">Valorar mi casa</a></div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero hero--card">
+    <div class="hero__bg">
+      <img src="assets/img/inmo-hero-sevilla.svg" width="1600" height="900"
+           alt="Vista de tejados y azoteas del centro histórico de Sevilla al atardecer" fetchpriority="high">
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="hero__eyebrow">Inmobiliaria en el Centro de Sevilla</span>
+        <h1 class="hero__title">Tu casa, vendida al mejor precio. Sin humo y sin esperas.</h1>
+        <p class="hero__lead">Llevamos 14 años vendiendo viviendas en Triana, Nervión, Los Remedios y el Centro. Valoramos con datos reales de mercado, no con promesas para conseguir tu exclusiva.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--lg" href="#valoracion">Valoración gratuita en 24 h</a>
+          <a class="btn btn--ghost btn--lg" href="#inmuebles">Ver inmuebles</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat"><span class="stat__num">412</span><span class="stat__label">viviendas vendidas</span></div>
+          <div class="stat"><span class="stat__num">31 días</span><span class="stat__label">de venta media</span></div>
+          <div class="stat"><span class="stat__num">98%</span><span class="stat__label">del precio de salida conseguido</span></div>
+        </div>
+      </div>
+      <div class="hero__card">
+        <h2>Busca tu próxima casa</h2>
+        <form class="form">
+          <div class="field">
+            <label for="buscador-zona">Zona</label>
+            <select id="buscador-zona" name="zona">
+              <option value="">Todas las zonas</option>
+              <option>Triana</option>
+              <option>Nervión</option>
+              <option>Los Remedios</option>
+              <option>Centro</option>
+              <option>Sevilla Este</option>
+              <option>Bami</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="buscador-tipo">Tipo de inmueble</label>
+            <select id="buscador-tipo" name="tipo">
+              <option value="">Cualquier tipo</option>
+              <option>Piso</option>
+              <option>Ático</option>
+              <option>Casa</option>
+              <option>Chalet</option>
+              <option>Local</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="buscador-precio">Presupuesto máximo</label>
+            <select id="buscador-precio" name="precio">
+              <option value="">Sin límite</option>
+              <option>Hasta 150.000 €</option>
+              <option>Hasta 200.000 €</option>
+              <option>Hasta 300.000 €</option>
+              <option>Hasta 500.000 €</option>
+            </select>
+          </div>
+          <a class="btn btn--primary btn--lg" href="#inmuebles">Buscar entre 9 inmuebles</a>
+          <p class="form__note">Cartera actualizada a diario. ¿No encuentras lo tuyo? Te lo buscamos.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- INMUEBLES + FILTROS -->
+  <section class="section" id="inmuebles">
+    <div class="container" data-filter-root>
+      <div class="section-head reveal">
+        <span class="eyebrow">Cartera de inmuebles</span>
+        <h2>Viviendas seleccionadas en Sevilla</h2>
+        <p class="lead">Filtra por zona, tipo y presupuesto. Cada ficha tiene fotos reales, planos y certificado energético disponibles en oficina.</p>
+      </div>
+
+      <div class="filters">
+        <select data-filter="zona" aria-label="Filtrar por zona">
+          <option value="">Todas las zonas</option>
+          <option value="Triana">Triana</option>
+          <option value="Nervión">Nervión</option>
+          <option value="Los Remedios">Los Remedios</option>
+          <option value="Centro">Centro</option>
+          <option value="Sevilla Este">Sevilla Este</option>
+          <option value="Bami">Bami</option>
+        </select>
+        <select data-filter="tipo" aria-label="Filtrar por tipo de inmueble">
+          <option value="">Cualquier tipo</option>
+          <option value="piso">Piso</option>
+          <option value="atico">Ático</option>
+          <option value="casa">Casa</option>
+          <option value="chalet">Chalet</option>
+          <option value="local">Local</option>
+        </select>
+        <select data-filter="precio" aria-label="Filtrar por precio máximo">
+          <option value="">Sin límite</option>
+          <option value="150000">Hasta 150.000 €</option>
+          <option value="200000">Hasta 200.000 €</option>
+          <option value="300000">Hasta 300.000 €</option>
+          <option value="500000">Hasta 500.000 €</option>
+        </select>
+      </div>
+
+      <p class="form__note"><span data-filter-count>9</span> inmuebles disponibles</p>
+
+      <div class="grid grid--3 reveal">
+
+        <article class="card" data-item data-zona="Triana" data-tipo="piso" data-precio="289000">
+          <img src="assets/img/inmo-ref101.svg" width="800" height="600"
+               alt="Salón luminoso de piso reformado en Triana" loading="lazy">
+          <div class="card__body">
+            <span class="eyebrow">REF-101 · Triana</span>
+            <h3>Piso reformado de 3 dormitorios junto a calle Betis</h3>
+            <p class="price-card__price">289.000 €</p>
+            <p>96 m² · 3 habitaciones · 2 baños · 3ª planta con ascensor</p>
+            <p>Reforma integral de 2023, cocina abierta y balcón a calle peatonal. A 5 minutos del puente de Triana.</p>
+            <button class="btn btn--wa" data-wa-item data-ref="REF-101" data-msg="Hola, me interesa el piso de 3 dormitorios en Triana (REF-101)">Me interesa</button>
+          </div>
+        </article>
+
+        <article class="card" data-item data-zona="Nervión" data-tipo="piso" data-precio="235000">
+          <img src="assets/img/inmo-ref102.svg" width="800" height="600"
+               alt="Dormitorio principal de piso en Nervión" loading="lazy">
+          <div class="card__body">
+            <span class="eyebrow">REF-102 · Nervión</span>
+            <h3>Piso de 2 dormitorios frente a Gran Plaza</h3>
+            <p class="price-card__price">235.000 €</p>
+            <p>78 m² · 2 habitaciones · 1 baño · 1ª planta con ascensor</p>
+            <p>Edificio con portero, ventanas de clima nuevas y metro a 200 metros. Ideal primera vivienda o inversión.</p>
+            <button class="btn btn--wa" data-wa-item data-ref="REF-102" data-msg="Hola, me interesa el piso de 2 dormitorios en Nervión (REF-102)">Me interesa</button>
+          </div>
+        </article>
+
+        <article class="card" data-item data-zona="Los Remedios" data-tipo="piso" data-precio="420000">
+          <img src="assets/img/inmo-ref103.svg" width="800" height="600"
+               alt="Salón comedor amplio de piso familiar en Los Remedios" loading="lazy">
+          <div class="card__body">
+            <span class="eyebrow">REF-103 · Los Remedios</span>
+            <h3>Piso familiar de 4 dormitorios en República Argentina</h3>
+            <p class="price-card__price">420.000 €</p>
+            <p>132 m² · 4 habitaciones · 2 baños · 5ª planta con ascensor</p>
+            <p>Orientación este, salón de 30 m² y plaza de garaje incluida. Colegios y Parque de los Príncipes a un paso.</p>
+            <button class="btn btn--wa" data-wa-item data-ref="REF-103" data-msg="Hola, me interesa el piso de 4 dormitorios en Los Remedios (REF-103)">Me interesa</button>
+          </div>
+        </article>
+
+        <article class="card" data-item data-zona="Centro" data-tipo="atico" data-precio="465000">
+          <img src="assets/img/inmo-ref104.svg" width="800" height="600"
+               alt="Terraza de ático con vistas al centro de Sevilla" loading="lazy">
+          <div class="card__body">
+            <span class="eyebrow">REF-104 · Centro</span>
+            <h3>Ático con terraza de 30 m² y vistas a la Giralda</h3>
+            <p class="price-card__price">465.000 €</p>
+            <p>85 m² + terraza · 2 habitaciones · 2 baños · 6ª planta con ascensor</p>
+            <p>Terraza con orientación sur, preinstalación de jacuzzi y licencia turística en vigor. Pieza única en el Casco Antiguo.</p>
+            <button class="btn btn--wa" data-wa-item data-ref="REF-104" data-msg="Hola, me interesa el ático con terraza en el Centro (REF-104)">Me interesa</button>
+          </div>
+        </article>
+
+        <article class="card" data-item data-zona="Sevilla Este" data-tipo="piso" data-precio="179000">
+          <img src="assets/img/inmo-ref105.svg" width="800" height="600"
+               alt="Cocina equipada de piso en Sevilla Este" loading="lazy">
+          <div class="card__body">
+            <span class="eyebrow">REF-105 · Sevilla Este</span>
+            <h3>Piso de 3 dormitorios en la Avenida de las Ciencias</h3>
+            <p class="price-card__price">179.000 €</p>
+            <p>90 m² · 3 habitaciones · 2 baños · 2ª planta con ascensor</p>
+            <p>Urbanización con piscina y pista de pádel. Garaje y trastero incluidos en el precio. Listo para entrar.</p>
+            <button class="btn btn--wa" data-wa-item data-ref="REF-105" data-msg="Hola, me interesa el piso de 3 dormitorios en Sevilla Este (REF-105)">Me interesa</button>
+          </div>
+        </article>
+
+        <article class="card" data-item data-zona="Bami" data-tipo="casa" data-precio="480000">
+          <img src="assets/img/inmo-ref106.svg" width="800" height="600"
+               alt="Fachada de casa adosada con patio en Bami" loading="lazy">
+          <div class="card__body">
+            <span class="eyebrow">REF-106 · Bami</span>
+            <h3>Adosado de 4 dormitorios con patio en Bami</h3>
+            <p class="price-card__price">480.000 €</p>
+            <p>168 m² · 4 habitaciones · 3 baños · 2 plantas + patio de 40 m²</p>
+            <p>Cocina con office, garaje para dos coches y azotea transitable. A 10 minutos andando del Hospital Virgen del Rocío.</p>
+            <button class="btn btn--wa" data-wa-item data-ref="REF-106" data-msg="Hola, me interesa el adosado de 4 dormitorios en Bami (REF-106)">Me interesa</button>
+          </div>
+        </article>
+
+        <article class="card" data-item data-zona="Triana" data-tipo="local" data-precio="145000">
+          <img src="assets/img/inmo-ref107.svg" width="800" height="600"
+               alt="Local comercial diáfano con escaparate en Triana" loading="lazy">
+          <div class="card__body">
+            <span class="eyebrow">REF-107 · Triana</span>
+            <h3>Local comercial a pie de calle en San Jacinto</h3>
+            <p class="price-card__price">145.000 €</p>
+            <p>65 m² · Diáfano · 2 escaparates · Pie de calle con salida de humos</p>
+            <p>Zona de máximo tránsito peatonal. Apto para hostelería, clínica o comercio. Rentabilidad estimada del 6,5% en alquiler.</p>
+            <button class="btn btn--wa" data-wa-item data-ref="REF-107" data-msg="Hola, me interesa el local comercial de Triana (REF-107)">Me interesa</button>
+          </div>
+        </article>
+
+        <article class="card" data-item data-zona="Sevilla Este" data-tipo="chalet" data-precio="349000">
+          <img src="assets/img/inmo-ref108.svg" width="800" height="600"
+               alt="Jardín con piscina de chalet pareado en Sevilla Este" loading="lazy">
+          <div class="card__body">
+            <span class="eyebrow">REF-108 · Sevilla Este</span>
+            <h3>Chalet pareado con piscina en Entrepuentes</h3>
+            <p class="price-card__price">349.000 €</p>
+            <p>196 m² · 4 habitaciones · 3 baños · 2 plantas · Parcela de 260 m²</p>
+            <p>Piscina privada, porche con cocina de verano y sótano acondicionado. Junto al colegio Alberto Durero.</p>
+            <button class="btn btn--wa" data-wa-item data-ref="REF-108" data-msg="Hola, me interesa el chalet pareado de Sevilla Este (REF-108)">Me interesa</button>
+          </div>
+        </article>
+
+        <article class="card" data-item data-zona="Centro" data-tipo="piso" data-precio="198000">
+          <img src="assets/img/inmo-ref109.svg" width="800" height="600"
+               alt="Salón con balcón de piso en el centro histórico de Sevilla" loading="lazy">
+          <div class="card__body">
+            <span class="eyebrow">REF-109 · Centro</span>
+            <h3>Piso de 2 dormitorios en la calle Regina</h3>
+            <p class="price-card__price">198.000 €</p>
+            <p>72 m² · 2 habitaciones · 1 baño · 3ª planta sin ascensor</p>
+            <p>Techos altos, suelo hidráulico original y balcón a calle tranquila. A 3 minutos de las Setas. Para reformar a tu gusto.</p>
+            <button class="btn btn--wa" data-wa-item data-ref="REF-109" data-msg="Hola, me interesa el piso de 2 dormitorios en pleno Centro (REF-109)">Me interesa</button>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="lead" data-filter-empty hidden>Ahora mismo no tenemos ningún inmueble con esos criterios. Avísanos por WhatsApp o en el formulario y te lo buscamos: entran viviendas nuevas cada semana.</p>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section section--alt" id="servicios">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Servicios</span>
+        <h2>Todo lo que necesitas, en una sola oficina</h2>
+        <p class="lead">Compra, venta, alquiler e hipoteca. Un solo interlocutor de principio a fin, sin marear entre gestorías.</p>
+      </div>
+      <div class="grid grid--4 reveal">
+        <div class="feature">
+          <span class="feature__icon" aria-hidden="true">🏠</span>
+          <h3>Vendemos tu casa</h3>
+          <p>Plan de venta con reportaje profesional, publicación en los principales portales y visitas solo de compradores cualificados. Media real: 31 días.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon" aria-hidden="true">📊</span>
+          <h3>Valoración gratuita</h3>
+          <p>Informe en 24 h con testigos reales de tu zona: precios de cierre, no de anuncio. Sin compromiso y sin letra pequeña.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon" aria-hidden="true">🔑</span>
+          <h3>Alquiler garantizado</h3>
+          <p>Cobras el día 5 de cada mes, pase lo que pase. Seleccionamos inquilinos con estudio de solvencia y seguro de impago incluido.</p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon" aria-hidden="true">🏦</span>
+          <h3>Gestión hipotecaria</h3>
+          <p>Negociamos tu hipoteca con más de 15 bancos. Nuestros clientes firman de media un 0,4% por debajo del tipo de escaparate.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section" id="proceso">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Cómo vendemos</span>
+        <h2>Nuestro método, paso a paso</h2>
+        <p class="lead">El mismo proceso que ha vendido 412 viviendas en Sevilla. Sabrás en qué punto está tu venta cada semana.</p>
+      </div>
+      <ol class="steps reveal">
+        <li class="step">
+          <h3>Valoración con datos reales</h3>
+          <p>Analizamos los cierres de los últimos 12 meses en tu portal y tu calle. Precio de salida realista, que es lo que vende.</p>
+        </li>
+        <li class="step">
+          <h3>Reportaje de fotos y home staging</h3>
+          <p>Fotógrafo profesional, vídeo y plano acotado. Si hace falta, preparamos la vivienda para que enamore en la primera visita.</p>
+        </li>
+        <li class="step">
+          <h3>Publicación en portales</h3>
+          <p>Idealista, Fotocasa, pisos.com y nuestra cartera de 1.400 compradores activos. Posicionamiento destacado incluido.</p>
+        </li>
+        <li class="step">
+          <h3>Visitas filtradas</h3>
+          <p>Solo enseñamos tu casa a compradores con financiación verificada. Tú no pierdes tardes con curiosos.</p>
+        </li>
+        <li class="step">
+          <h3>Firma en notaría</h3>
+          <p>Redactamos las arras, coordinamos con el banco y te acompañamos a la firma. Hasta el último papel.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- OPINIONES -->
+  <section class="section section--alt" id="opiniones">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Opiniones</span>
+        <h2>Lo que dicen quienes ya han vendido con nosotros</h2>
+        <p class="lead">Valoración media de 4,9 sobre 5 en Google con más de 180 reseñas.</p>
+      </div>
+      <div class="reviews reveal">
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"Vendieron mi piso de Pagés del Corro en 23 días y por 4.000 € más de lo que me ofrecía otra agencia. El reportaje de fotos parecía de revista y Álvaro me mandaba resumen de visitas cada viernes."</p>
+          <p class="review__author">Marta G.</p>
+          <p class="review__zone">Vendió en Triana</p>
+        </article>
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"Lo que más me gustó: la valoración fue realista desde el primer día, nada de inflar el precio para pillar la exclusiva. En la notaría estuvieron con nosotros hasta que se firmó el último papel."</p>
+          <p class="review__author">José Luis R.</p>
+          <p class="review__zone">Vendió en Nervión</p>
+        </article>
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"Tengo mi piso de Asunción en alquiler garantizado con ellos desde 2023. Cobro el día 5 clavado todos los meses y cuando hubo una avería del termo lo gestionaron ellos sin molestarme."</p>
+          <p class="review__author">Carmen D.</p>
+          <p class="review__zone">Propietaria en Los Remedios</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Preguntas frecuentes</span>
+        <h2>Antes de firmar nada, resuelve tus dudas</h2>
+      </div>
+      <div class="faq reveal">
+        <details class="faq__item">
+          <summary>¿Cuánto cobráis por vender mi casa?</summary>
+          <div class="faq__body">
+            <p>Nuestros honorarios son un porcentaje fijo del precio de venta, con IVA incluido y pactado por escrito antes de empezar. Solo cobramos si vendemos: la valoración, el reportaje y la publicación en portales no te cuestan nada aunque la venta no se cierre.</p>
+          </div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Tengo que firmar una exclusiva?</summary>
+          <div class="faq__body">
+            <p>Trabajamos en exclusiva de 3 meses porque es lo que nos permite invertir en fotografía, home staging y posicionamiento destacado. Si en ese plazo no hay ofertas al precio pactado, quedas libre sin ninguna penalización.</p>
+          </div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Qué gastos tiene vender una vivienda?</summary>
+          <div class="faq__body">
+            <p>Como vendedor pagas la plusvalía municipal, la parte proporcional del IBI del año, la cancelación de hipoteca si la hay y el certificado energético. Te entregamos un cuadro con todos los importes estimados junto a la valoración, para que sepas el neto que te llevarás antes de decidir.</p>
+          </div>
+        </details>
+        <details class="faq__item">
+          <summary>¿Cuánto tardaréis en vender mi piso?</summary>
+          <div class="faq__body">
+            <p>Nuestra media en 2025 fue de 31 días desde la publicación hasta la reserva, con precio de salida realista. Las viviendas bien valoradas en Triana, Nervión y Los Remedios suelen recibir ofertas en las dos primeras semanas.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALORACIÓN -->
+  <section class="section section--alt" id="valoracion">
+    <div class="container">
+      <div class="grid grid--2">
+        <div class="reveal">
+          <div class="section-head">
+            <span class="eyebrow">Valoración gratuita</span>
+            <h2>¿Cuánto vale tu casa hoy?</h2>
+            <p class="lead">Rellena el formulario y en menos de 24 h laborables tendrás un informe con testigos reales de tu zona. Sin compromiso y sin llamadas pesadas.</p>
+          </div>
+          <div class="hours">
+            <div class="hours__row"><span class="hours__day">Informe de valoración</span><span class="hours__time">En 24 h laborables</span></div>
+            <div class="hours__row"><span class="hours__day">Visita a domicilio</span><span class="hours__time">Si la quieres, gratuita</span></div>
+            <div class="hours__row"><span class="hours__day">Compromiso</span><span class="hours__time">Ninguno</span></div>
+          </div>
+        </div>
+        <form class="form reveal" id="form-valoracion" data-demo-form data-toast="DEMO: esta solicitud de valoración llegaría a tu WhatsApp y a tu email al instante">
+          <div class="field">
+            <label for="val-nombre">Nombre</label>
+            <input id="val-nombre" name="nombre" type="text" autocomplete="name" placeholder="María Sánchez" required>
+          </div>
+          <div class="field">
+            <label for="val-telefono">Teléfono</label>
+            <input id="val-telefono" name="telefono" type="tel" autocomplete="tel" placeholder="600 00 00 00" required>
+          </div>
+          <div class="field">
+            <label for="val-tipo">Tipo de inmueble</label>
+            <select id="val-tipo" name="tipo" required>
+              <option value="" selected disabled>Elige una opción</option>
+              <option>Piso</option>
+              <option>Ático</option>
+              <option>Casa</option>
+              <option>Chalet</option>
+              <option>Local</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="val-zona">Zona</label>
+            <select id="val-zona" name="zona" required>
+              <option value="" selected disabled>Elige tu zona</option>
+              <option>Triana</option>
+              <option>Nervión</option>
+              <option>Los Remedios</option>
+              <option>Centro</option>
+              <option>Sevilla Este</option>
+              <option>Bami</option>
+              <option>Otra zona de Sevilla</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="val-metros">Metros cuadrados (aprox.)</label>
+            <input id="val-metros" name="metros" type="number" min="20" max="1000" placeholder="90" required>
+          </div>
+          <button class="btn btn--primary btn--lg" type="submit">Quiero mi valoración gratuita</button>
+          <p class="form__note">Te contactaremos por teléfono o WhatsApp solo para entregarte el informe. Sin permanencias ni compromiso.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAPA -->
+  <section class="section" id="donde">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Dónde estamos</span>
+        <h2>Ven a vernos al Centro</h2>
+        <p class="lead">Calle Sierpes 42, 1ª planta. A dos minutos de la Plaza Nueva, con parking público en la calle Albareda.</p>
+      </div>
+      <div class="map reveal">
+        <iframe title="Ubicación de Inmobiliaria Giralda en Sevilla" loading="lazy"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-6.0030,37.3800,-5.9830,37.3920&layer=mapnik&marker=37.3860,-5.9930"></iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div>
+      <strong>Inmobiliaria Giralda</strong>
+      <p>Calle Sierpes 42, 1ª planta<br>41004 Sevilla</p>
+    </div>
+    <div>
+      <strong>Contacto</strong>
+      <p>692 20 39 81<br>hola@inmogiralda.es</p>
+    </div>
+    <div>
+      <strong>Horario</strong>
+      <p>Lunes a viernes: 9:30–14:00 y 17:00–20:00<br>Sábados: 10:00–13:30 con cita previa</p>
+    </div>
+  </div>
+  <div class="container">
+    <p class="form__note">© <span data-year></span> Inmobiliaria Giralda. Demo de ejemplo — negocio ficticio.</p>
+  </div>
+  <span class="demo-ribbon">DEMO</span>
+</footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Flor y destellos, símbolo de tratamientos de estética">
+  <defs>
+    <linearGradient id="cBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8d6b3f"/><stop offset="1" stop-color="#c98d84"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#cBg)"/>
+  <circle cx="640" cy="110" r="190" fill="#fdfbf8" opacity=".12"/>
+  <circle cx="150" cy="520" r="150" fill="#fdfbf8" opacity=".10"/>
+  <!-- flor de 6 petalos -->
+  <g transform="translate(400,300)" fill="#fdfbf8" opacity=".95">
+    <ellipse cx="0" cy="-96" rx="46" ry="104"/>
+    <ellipse cx="0" cy="-96" rx="46" ry="104" transform="rotate(60)"/>
+    <ellipse cx="0" cy="-96" rx="46" ry="104" transform="rotate(120)"/>
+    <ellipse cx="0" cy="-96" rx="46" ry="104" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-96" rx="46" ry="104" transform="rotate(240)"/>
+    <ellipse cx="0" cy="-96" rx="46" ry="104" transform="rotate(300)"/>
+  </g>
+  <circle cx="400" cy="300" r="56" fill="#c98d84"/>
+  <circle cx="400" cy="300" r="30" fill="#fdfbf8" opacity=".55"/>
+  <!-- destellos -->
+  <g fill="#fdfbf8">
+    <path d="M628 300 l14 40 40 14 -40 14 -14 40 -14 -40 -40 -14 40 -14 z"/>
+    <path d="M186 216 l10 30 30 10 -30 10 -10 30 -10 -30 -30 -10 30 -10 z" opacity=".85"/>
+    <path d="M566 470 l8 24 24 8 -24 8 -8 24 -8 -24 -24 -8 24 -8 z" opacity=".7"/>
+  </g>
+</svg>

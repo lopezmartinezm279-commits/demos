@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Interior de la taberna con barra de madera, azulejos, botellas y taburetes">
+  <defs>
+    <linearGradient id="rhtBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#212819"/><stop offset="1" stop-color="#171c13"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#rhtBg)"/>
+  <circle cx="400" cy="230" r="240" fill="#c9a35f" opacity=".07"/>
+  <!-- balda con botellas -->
+  <rect x="120" y="188" width="560" height="14" rx="7" fill="#c9a35f"/>
+  <g>
+    <g fill="#f1ead9">
+      <path d="M182 188 V 116 Q 182 96 198 96 Q 214 96 214 116 V 188 Z"/>
+      <rect x="192" y="72" width="12" height="30" rx="5"/>
+    </g>
+    <g fill="#8d3a47">
+      <path d="M266 188 V 104 Q 266 84 284 84 Q 302 84 302 104 V 188 Z"/>
+      <rect x="278" y="58" width="12" height="32" rx="5"/>
+    </g>
+    <g fill="#c9a35f">
+      <path d="M354 188 V 122 Q 354 102 370 102 Q 386 102 386 122 V 188 Z"/>
+      <rect x="364" y="78" width="12" height="30" rx="5"/>
+    </g>
+    <g fill="#f1ead9">
+      <path d="M438 188 V 100 Q 438 80 456 80 Q 474 80 474 100 V 188 Z"/>
+      <rect x="450" y="54" width="12" height="32" rx="5"/>
+    </g>
+    <g fill="#8d3a47">
+      <path d="M528 188 V 120 Q 528 100 544 100 Q 560 100 560 120 V 188 Z"/>
+      <rect x="538" y="76" width="12" height="30" rx="5"/>
+    </g>
+    <circle cx="632" cy="150" r="38" fill="none" stroke="#c9a35f" stroke-width="9"/>
+    <path d="M632 128 V 172 M 612 150 H 652" stroke="#c9a35f" stroke-width="9" fill="none"/>
+  </g>
+  <!-- barra de madera -->
+  <rect x="60" y="250" width="680" height="46" rx="14" fill="#c9a35f"/>
+  <rect x="90" y="296" width="620" height="130" fill="#a5763a"/>
+  <g stroke="#8a5f2c" stroke-width="8" fill="none" opacity=".8">
+    <path d="M215 296 V 426"/><path d="M400 296 V 426"/><path d="M585 296 V 426"/>
+  </g>
+  <!-- franja de azulejo sevillano -->
+  <rect x="90" y="426" width="620" height="64" fill="#f1ead9"/>
+  <g fill="#8d3a47">
+    <path d="M140 436 l 22 22 -22 22 -22 -22 Z"/>
+    <path d="M264 436 l 22 22 -22 22 -22 -22 Z"/>
+    <path d="M388 436 l 22 22 -22 22 -22 -22 Z"/>
+    <path d="M512 436 l 22 22 -22 22 -22 -22 Z"/>
+    <path d="M636 436 l 22 22 -22 22 -22 -22 Z"/>
+  </g>
+  <g fill="none" stroke="#c9a35f" stroke-width="7">
+    <circle cx="202" cy="458" r="14"/><circle cx="326" cy="458" r="14"/>
+    <circle cx="450" cy="458" r="14"/><circle cx="574" cy="458" r="14"/>
+  </g>
+  <!-- taburetes -->
+  <g fill="#8d3a47">
+    <rect x="150" y="500" width="130" height="26" rx="13"/>
+    <rect x="520" y="500" width="130" height="26" rx="13"/>
+  </g>
+  <g stroke="#c9a35f" stroke-width="11" fill="none">
+    <path d="M166 526 L 156 588"/><path d="M264 526 L 274 588"/>
+    <path d="M536 526 L 526 588"/><path d="M634 526 L 644 588"/>
+    <path d="M172 562 H 258"/><path d="M542 562 H 628"/>
+  </g>
+</svg>

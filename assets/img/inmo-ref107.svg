@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Local comercial a pie de calle con toldo y dos escaparates">
+  <defs>
+    <linearGradient id="ref107Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1d36"/><stop offset="1" stop-color="#142a4c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#ref107Bg)"/>
+  <circle cx="400" cy="120" r="150" fill="#b9924b" opacity=".1"/>
+  <!-- frente del local -->
+  <rect x="90" y="120" width="620" height="400" rx="8" fill="#f8f7f4"/>
+  <!-- banda de rotulo -->
+  <rect x="110" y="140" width="580" height="56" rx="8" fill="#142a4c"/>
+  <rect x="300" y="160" width="200" height="16" rx="8" fill="#b9924b"/>
+  <!-- toldo -->
+  <g fill="#b9924b">
+    <path d="M100 210 L 160 210 L 152 268 Q 126 284 100 268 Z"/>
+    <path d="M220 210 L 280 210 L 272 268 Q 246 284 220 268 Z"/>
+    <path d="M340 210 L 400 210 L 392 268 Q 366 284 340 268 Z"/>
+    <path d="M460 210 L 520 210 L 512 268 Q 486 284 460 268 Z"/>
+    <path d="M580 210 L 640 210 L 632 268 Q 606 284 580 268 Z"/>
+  </g>
+  <g fill="#142a4c" opacity=".9">
+    <path d="M160 210 L 220 210 L 212 268 Q 186 284 160 268 Z"/>
+    <path d="M280 210 L 340 210 L 332 268 Q 306 284 280 268 Z"/>
+    <path d="M400 210 L 460 210 L 452 268 Q 426 284 400 268 Z"/>
+    <path d="M520 210 L 580 210 L 572 268 Q 546 284 520 268 Z"/>
+    <path d="M640 210 L 700 210 L 692 268 Q 666 284 640 268 Z"/>
+  </g>
+  <!-- escaparates -->
+  <rect x="130" y="300" width="180" height="200" rx="8" fill="#142a4c"/>
+  <rect x="490" y="300" width="180" height="200" rx="8" fill="#142a4c"/>
+  <path d="M150 480 L 230 320 L 260 320 L 180 500 Z" fill="#b9924b" opacity=".35"/>
+  <path d="M510 480 L 590 320 L 620 320 L 540 500 Z" fill="#b9924b" opacity=".35"/>
+  <!-- maniqui / expositor en escaparate -->
+  <circle cx="220" cy="380" r="18" fill="#f8f7f4" opacity=".85"/>
+  <rect x="204" y="404" width="32" height="60" rx="12" fill="#f8f7f4" opacity=".85"/>
+  <rect x="560" y="400" width="44" height="64" rx="8" fill="#f8f7f4" opacity=".85"/>
+  <circle cx="582" cy="384" r="14" fill="#b9924b"/>
+  <!-- puerta central -->
+  <rect x="350" y="310" width="100" height="190" rx="8" fill="#b9924b"/>
+  <rect x="366" y="330" width="68" height="110" rx="6" fill="#142a4c"/>
+  <circle cx="438" cy="412" r="7" fill="#f8f7f4"/>
+  <!-- acera -->
+  <rect x="60" y="536" width="680" height="16" rx="8" fill="#b9924b" opacity=".45"/>
+</svg>

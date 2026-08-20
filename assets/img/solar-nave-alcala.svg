@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Cubierta plana de nave industrial con hileras de placas solares">
+  <defs>
+    <linearGradient id="snaBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#116330"/><stop offset="1" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#snaBg)"/>
+  <circle cx="130" cy="120" r="140" fill="#fbbf24" opacity=".16"/>
+  <circle cx="690" cy="470" r="170" fill="#0284c7" opacity=".12"/>
+  <!-- nave industrial -->
+  <rect x="110" y="330" width="580" height="210" rx="8" fill="#f6fafb"/>
+  <rect x="96" y="306" width="608" height="28" rx="12" fill="#101c2c"/>
+  <!-- tres hileras de placas sobre la cubierta plana -->
+  <g fill="#0284c7">
+    <path d="M150 306 L172 268 L250 268 L228 306 Z"/>
+    <path d="M244 306 L266 268 L344 268 L322 306 Z"/>
+    <path d="M338 306 L360 268 L438 268 L416 306 Z"/>
+    <path d="M432 306 L454 268 L532 268 L510 306 Z"/>
+    <path d="M526 306 L548 268 L626 268 L604 306 Z"/>
+    <path d="M620 306 L642 268 L666 268 L644 306 Z"/>
+  </g>
+  <g fill="#2aa5d6">
+    <path d="M210 258 L228 228 L296 228 L278 258 Z"/>
+    <path d="M290 258 L308 228 L376 228 L358 258 Z"/>
+    <path d="M370 258 L388 228 L456 228 L438 258 Z"/>
+    <path d="M450 258 L468 228 L536 228 L518 258 Z"/>
+    <path d="M530 258 L548 228 L616 228 L598 258 Z"/>
+  </g>
+  <!-- puerta industrial y franjas -->
+  <rect x="330" y="396" width="180" height="144" rx="10" fill="#15803d"/>
+  <g stroke="#0b3b22" stroke-width="10" opacity=".5" fill="none">
+    <path d="M344 428 H 496"/><path d="M344 462 H 496"/><path d="M344 496 H 496"/>
+  </g>
+  <rect x="150" y="396" width="110" height="60" rx="10" fill="#0284c7" opacity=".7"/>
+  <rect x="560" y="396" width="110" height="60" rx="10" fill="#0284c7" opacity=".7"/>
+  <rect x="80" y="540" width="640" height="14" rx="7" fill="#0b3b22" opacity=".55"/>
+</svg>

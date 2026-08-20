@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taberna El Postigo — Cocina andaluza de mercado en Santa Cruz, Sevilla</title>
+<meta name="description" content="Taberna de cocina andaluza en el barrio de Santa Cruz, Sevilla. Salmorejo, carrillada, atún de almadraba y vinos de Jerez. Reserva mesa online o por WhatsApp.">
+<link rel="icon" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/themes.css">
+<script src="assets/js/app.js" defer></script>
+</head>
+<body class="theme-restaurante" data-sector="restaurante" data-wa="Hola, quiero reservar mesa">
+
+<div id="demobar"></div>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="logo" href="#top">Taberna El Postigo</a>
+    <button class="nav-toggle" data-nav-toggle aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" data-nav>
+      <a href="#carta">La carta</a>
+      <a href="#menus">Menús</a>
+      <a href="#galeria">Galería</a>
+      <a href="#historia">La casa</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#reservas">Reservas</a>
+    </nav>
+    <div class="site-header__cta"><a class="btn btn--primary" href="#reservas">Reservar mesa</a></div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- 1. HERO -->
+  <section class="hero hero--full">
+    <div class="hero__bg">
+      <img src="assets/img/restaurante-hero-carrillada.svg" width="1600" height="900" alt="Carrillada ibérica al oloroso, plato estrella de la Taberna El Postigo" fetchpriority="high">
+    </div>
+    <div class="container">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Cocina andaluza de mercado · Barrio de Santa Cruz</p>
+        <h1 class="hero__title">La taberna de siempre, con la cocina de ahora</h1>
+        <p class="hero__lead">Salmorejo hecho cada mañana, carrillada guisada seis horas y atún de almadraba en temporada. Barra, mesas y patio en una casa de 1900 del corazón de Santa Cruz.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--lg" href="#reservas">Reservar mesa</a>
+          <a class="btn btn--ghost btn--lg" href="#carta">Ver la carta</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__num">1987</span>
+            <span class="stat__label">Sirviendo desde entonces</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">4,8★</span>
+            <span class="stat__label">En Google (860 reseñas)</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">100%</span>
+            <span class="stat__label">Producto de mercado</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. LA CARTA -->
+  <section class="section" id="carta">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">La carta</p>
+        <h2>Lo que sale de nuestra cocina</h2>
+        <p class="lead">Carta corta y de temporada: lo que hay en el Mercado de la Puerta de la Carne por la mañana es lo que hay en la pizarra por la tarde. Las especialidades de la casa van marcadas con ★.</p>
+      </div>
+      <div class="tabs reveal" data-tabs>
+        <div class="tabs__nav">
+          <button type="button" data-tab="tapas" class="is-active" aria-selected="true">Tapas</button>
+          <button type="button" data-tab="para-compartir" aria-selected="false">Para compartir</button>
+          <button type="button" data-tab="carnes-pescados" aria-selected="false">Carnes y pescados</button>
+          <button type="button" data-tab="postres" aria-selected="false">Postres</button>
+          <button type="button" data-tab="bebidas" aria-selected="false">Bebidas</button>
+        </div>
+
+        <div class="tabs__panel" data-panel="tapas">
+          <div class="grid grid--2">
+            <div>
+              <h3>Salmorejo cordobés ★</h3>
+              <p>Con virutas de jamón ibérico y huevo de corral. Se tritura cada mañana, jamás sale de una garrafa. <strong>Tapa 3,80 € · Ración 8,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Espinacas con garbanzos</h3>
+              <p>La receta sevillana de siempre, con su majado de pan frito y comino. <strong>Tapa 3,50 € · Ración 9,00 €</strong></p>
+            </div>
+            <div>
+              <h3>Cazón en adobo</h3>
+              <p>Marinado 24 horas en nuestro adobo y frito en aceite de oliva limpio. Crujiente por fuera, jugoso por dentro. <strong>Tapa 4,00 € · Ración 11,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Croquetas de puchero</h3>
+              <p>Del puchero del día anterior, cremosas de verdad. Tres por tapa, ocho por ración. <strong>Tapa 3,80 € · Ración 9,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Ensaladilla de gambas</h3>
+              <p>Con mayonesa casera montada al momento y picos de Utrera. <strong>Tapa 3,50 € · Ración 9,00 €</strong></p>
+            </div>
+            <div>
+              <h3>Carrillada ibérica al oloroso ★</h3>
+              <p>Seis horas de guiso en vino oloroso de Jerez, se corta con la cuchara. La tapa que nos hizo famosos. <strong>Tapa 4,50 € · Ración 13,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Montadito de pringá</h3>
+              <p>En pan de Alcalá, con la pringá de nuestro puchero. El bocado más sevillano de la carta. <strong>3,20 €</strong></p>
+            </div>
+            <div>
+              <h3>Papas aliñás con melva</h3>
+              <p>Patata nueva, cebolleta, AOVE y melva de Barbate. Frías, como tienen que estar. <strong>Tapa 3,50 € · Ración 8,50 €</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tabs__panel" data-panel="para-compartir" hidden>
+          <div class="grid grid--2">
+            <div>
+              <h3>Tortillitas de camarones ★</h3>
+              <p>Finas y crujientes como en la Isla, con camarón de la bahía de Cádiz. Seis unidades. <strong>12,00 €</strong></p>
+            </div>
+            <div>
+              <h3>Tabla de ibéricos de bellota</h3>
+              <p>Jamón, caña de lomo y salchichón de Jabugo cortados a cuchillo, con picos y regañás. <strong>19,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Queso payoyo con membrillo</h3>
+              <p>Curado de la Sierra de Grazalema con membrillo casero y picos de Utrera. <strong>12,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Chicharrones de Cádiz</h3>
+              <p>Cortados finos, con su limón y un toque de pimienta. Peligrosamente adictivos. <strong>9,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Surtido de fritura andaluza</h3>
+              <p>Cazón, boquerones y puntillitas, fritos por tandas para que lleguen crujientes. Para dos o tres. <strong>16,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Revuelto de bacalao y tagarninas</h3>
+              <p>Huevos de corral, bacalao desmigado y tagarninas de temporada. <strong>12,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Alcachofas confitadas con jamón</h3>
+              <p>De la Vega del Guadalquivir, confitadas en AOVE y terminadas a la plancha. Solo en temporada. <strong>13,00 €</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tabs__panel" data-panel="carnes-pescados" hidden>
+          <div class="grid grid--2">
+            <div>
+              <h3>Atún rojo de almadraba ★</h3>
+              <p>Lomo a la plancha, poco hecho, con soja, sésamo y aguacate. De Barbate, en temporada de almadraba. <strong>21,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Presa ibérica a la brasa</h3>
+              <p>De cerdo 100% ibérico, con papas panaderas y pimientos fritos. <strong>16,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Solomillo al whisky</h3>
+              <p>El clásico sevillano con su salsa de ajo dorado y patatas fritas caseras. <strong>13,90 €</strong></p>
+            </div>
+            <div>
+              <h3>Entrecot de retinto</h3>
+              <p>Vaca retinta de la janda, 300 g a la brasa con sal en escamas. <strong>19,90 €</strong></p>
+            </div>
+            <div>
+              <h3>Rabo de toro estofado</h3>
+              <p>Deshuesado en mesa si lo pides, con puré de patata trufado. <strong>15,90 €</strong></p>
+            </div>
+            <div>
+              <h3>Lubina a la espalda</h3>
+              <p>De estero, con refrito de ajos y guindilla. <strong>17,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Corvina en amarillo</h3>
+              <p>Guiso marinero con patatas, azafrán y un toque de fino. Receta de la abuela Carmen. <strong>16,50 €</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tabs__panel" data-panel="postres" hidden>
+          <div class="grid grid--2">
+            <div>
+              <h3>Torrijas caramelizadas ★</h3>
+              <p>De brioche, empapadas en leche infusionada con canela y naranja, con helado de canela. Todo el año, no solo en Semana Santa. <strong>5,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Tocino de cielo</h3>
+              <p>Hecho en casa con la receta jerezana: solo yema, azúcar y paciencia. <strong>4,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Tarta de queso payoyo</h3>
+              <p>Al horno, cremosa por dentro, con el punto salado del payoyo. <strong>5,90 €</strong></p>
+            </div>
+            <div>
+              <h3>Pijama de la casa</h3>
+              <p>Flan, helado, nata, melocotón en almíbar y barquillo. El postre de las celebraciones de toda la vida. <strong>5,80 €</strong></p>
+            </div>
+            <div>
+              <h3>Naranja sevillana</h3>
+              <p>En gajos con canela, miel de azahar y un hilo de AOVE. Fresco y ligero. <strong>4,00 €</strong></p>
+            </div>
+            <div>
+              <h3>Arroz con leche cremoso</h3>
+              <p>Requemado por encima al momento, como una crema catalana andaluza. <strong>4,50 €</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tabs__panel" data-panel="bebidas" hidden>
+          <div class="grid grid--2">
+            <div>
+              <h3>Cerveza de barril</h3>
+              <p>Cruzcampo bien tirada, con su dedo de espuma. <strong>Caña 1,80 € · Tubo 2,50 €</strong></p>
+            </div>
+            <div>
+              <h3>Vinos de Jerez por copas ★</h3>
+              <p>Fino, manzanilla, amontillado, oloroso y Pedro Ximénez. Pregunta por el marco de la semana. <strong>Desde 2,80 €</strong></p>
+            </div>
+            <div>
+              <h3>Tintos por copas</h3>
+              <p>Rioja crianza, Ribera del Duero y un tinto de la Sierra Norte de Sevilla. <strong>Desde 3,20 €</strong></p>
+            </div>
+            <div>
+              <h3>Vino de naranja</h3>
+              <p>Del Condado de Huelva, frío, para el aperitivo o el postre. <strong>3,00 €</strong></p>
+            </div>
+            <div>
+              <h3>Vermú de grifo</h3>
+              <p>Con naranja sevillana y aceituna gordal. <strong>3,20 €</strong></p>
+            </div>
+            <div>
+              <h3>Rebujito y tinto de verano</h3>
+              <p>En jarra o en vaso, con hierbabuena fresca el rebujito. <strong>Vaso 3,00 € · Jarra 9,00 €</strong></p>
+            </div>
+            <div>
+              <h3>Refrescos y agua</h3>
+              <p>Refrescos 2,00 € y agua mineral 1,80 €. Gaseosa La Casera para el tinto, por supuesto.</p>
+            </div>
+            <div>
+              <h3>Café e infusiones</h3>
+              <p>Café de tueste natural. Solo, cortado o con hielo, que aquí se toma mucho. <strong>1,60 €</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. MENÚS -->
+  <section class="section section--alt" id="menus">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Menús</p>
+        <h2>Menú del día y grupos</h2>
+        <p class="lead">Para comer de menú entre semana o para juntar a la familia entera sin discutir la cuenta.</p>
+      </div>
+      <div class="grid grid--2 reveal">
+        <div class="price-card">
+          <p class="price-card__from">Menú del día · martes a viernes mediodía</p>
+          <p class="price-card__price">14,50 €</p>
+          <p>Primero, segundo y postre o café a elegir entre cuatro opciones de cada, con pan y bebida incluidos. La pizarra cambia a diario según mercado.</p>
+          <p><strong>Ejemplo de hoy:</strong> salmorejo o espinacas · corvina en amarillo o solomillo al whisky · torrija o café.</p>
+        </div>
+        <div class="price-card price-card--featured">
+          <p class="price-card__from">Menú de grupos · desde 8 personas</p>
+          <p class="price-card__price">28 € <span class="price-card__from">por persona</span></p>
+          <p>Entrantes al centro (ensaladilla, croquetas, tortillitas y fritura), principal a elegir (carrillada, atún o lubina), postre y bebida durante toda la comida.</p>
+          <p>Patio privado para hasta 30 comensales. Celebraciones, comidas de empresa y pre-ferias. Se reserva con señal de 10 € por persona.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. GALERÍA -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Galería</p>
+        <h2>Los platos, tal cual salen</h2>
+        <p class="lead">Fotos sin retocar, hechas en la barra y en el patio. Toca cualquiera para verla en grande.</p>
+      </div>
+      <div class="gallery reveal" data-lightbox>
+        <img src="assets/img/restaurante-plato-1.svg" width="700" height="700" alt="Salmorejo cordobés con jamón ibérico y huevo" loading="lazy">
+        <img src="assets/img/restaurante-plato-2.svg" width="700" height="700" alt="Carrillada ibérica al oloroso con puré de patata" loading="lazy">
+        <img src="assets/img/restaurante-plato-3.svg" width="700" height="700" alt="Atún rojo de almadraba a la plancha con sésamo" loading="lazy">
+        <img src="assets/img/restaurante-plato-4.svg" width="700" height="700" alt="Tortillitas de camarones recién fritas" loading="lazy">
+        <img src="assets/img/restaurante-plato-5.svg" width="700" height="700" alt="Torrijas caramelizadas con helado de canela" loading="lazy">
+        <img src="assets/img/restaurante-plato-6.svg" width="700" height="700" alt="Patio de la taberna con mesas puestas por la noche" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. HISTORIA -->
+  <section class="section section--alt" id="historia">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">La casa</p>
+        <h2>Una taberna con tres generaciones detrás</h2>
+      </div>
+      <div class="grid grid--2 reveal">
+        <img src="assets/img/restaurante-historia-taberna.svg" width="800" height="600" alt="Interior de la Taberna El Postigo con azulejos y barra de madera" loading="lazy">
+        <div>
+          <p>La abuela Carmen abrió la taberna en 1987 en esta casa de 1900 del barrio de Santa Cruz, con cuatro mesas, una pizarra y su guiso de corvina en amarillo. Hoy cocina su nieto Curro, que pasó por dos restaurantes con estrella antes de volver a casa, pero la pizarra sigue siendo la misma.</p>
+          <p>Cada mañana a las 8:00 estamos en el Mercado de la Puerta de la Carne: el pescado que hay, es el que se sirve; la verdura de temporada manda en la carta. Ni congeladores llenos ni cartas de veinte páginas.</p>
+          <p>Azulejos originales, barriles de manzanilla, un patio con naranjo y la carrillada que llevamos treinta años sin quitar de la carta porque no nos dejan los clientes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. HORARIOS -->
+  <section class="section" id="horario">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Horario</p>
+        <h2>Cuándo abre la cocina</h2>
+        <p class="lead">La barra abre media hora antes de la cocina para el aperitivo. Los lunes descansamos: el mercado también.</p>
+      </div>
+      <div class="hours reveal">
+        <div class="hours__row">
+          <span class="hours__day">Lunes</span>
+          <span class="hours__time">Cerrado por descanso</span>
+        </div>
+        <div class="hours__row">
+          <span class="hours__day">Martes a domingo · almuerzo</span>
+          <span class="hours__time">Cocina de 13:00 a 16:30</span>
+        </div>
+        <div class="hours__row">
+          <span class="hours__day">Martes a domingo · cena</span>
+          <span class="hours__time">Cocina de 20:00 a 23:30</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. RESEÑAS -->
+  <section class="section section--alt" id="opiniones">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Opiniones</p>
+        <h2>Lo que cuentan quienes ya han venido</h2>
+        <p class="lead">4,8 sobre 5 en Google con más de 860 reseñas.</p>
+      </div>
+      <div class="reviews reveal">
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"La carrillada es de las tres mejores que he comido en Sevilla, y mira que he probado. Pedimos tapa para probar y acabamos pidiendo dos raciones. El camarero, Paco, nos recomendó un oloroso para acompañarla que era un escándalo."</p>
+          <p class="review__author">Isabel Moreno</p>
+          <p class="review__zone">Cena en el patio · Sevilla</p>
+        </article>
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"Celebramos el cumpleaños de mi padre, 14 personas con el menú de grupos. Todo al centro, sin esperas y la cuenta clavada a lo acordado. El patio con el naranjo, de postal. Mi padre sigue hablando de las tortillitas."</p>
+          <p class="review__author">Daniel Vázquez</p>
+          <p class="review__zone">Menú de grupos · Dos Hermanas</p>
+        </article>
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"En pleno Santa Cruz y sin ser una trampa para turistas, que ya es difícil. Menú del día a 14,50 con un salmorejo espectacular y corvina en amarillo de puchero de verdad. Vengo a comer entre semana siempre que puedo."</p>
+          <p class="review__author">Rocío Fernández</p>
+          <p class="review__zone">Menú del día · Trabaja en el Centro</p>
+        </article>
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"Reservé por WhatsApp para cenar un sábado y me contestaron en cinco minutos. Avisé de una alergia al marisco y cuando llegamos ya lo sabía la cocina sin tener que repetirlo. Las torrijas, obligatorias."</p>
+          <p class="review__author">Sergio Lara</p>
+          <p class="review__zone">Cena de pareja · Mairena del Aljarafe</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. RESERVAS -->
+  <section class="section" id="reservas">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Reservas</p>
+        <h2>Reserva tu mesa</h2>
+        <p class="lead">Somos una casa pequeña: 12 mesas y el patio. Reservando te garantizas sitio; sin reserva, la barra es tuya si hay hueco. Confirmamos por WhatsApp en minutos.</p>
+      </div>
+      <form class="form reveal" id="reserva" data-demo-form data-toast="DEMO: esta reserva llegaría a tu WhatsApp al instante">
+        <div class="field">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="telefono">Teléfono</label>
+          <input id="telefono" name="telefono" type="tel" autocomplete="tel" required>
+        </div>
+        <div class="field">
+          <label for="fecha">Fecha</label>
+          <input id="fecha" name="fecha" type="date" required>
+        </div>
+        <div class="field">
+          <label for="hora">Hora</label>
+          <select id="hora" name="hora" required>
+            <option value="">Elige turno</option>
+            <option>Almuerzo — 13:00</option>
+            <option>Almuerzo — 13:30</option>
+            <option>Almuerzo — 14:00</option>
+            <option>Almuerzo — 14:30</option>
+            <option>Almuerzo — 15:00</option>
+            <option>Cena — 20:00</option>
+            <option>Cena — 20:30</option>
+            <option>Cena — 21:00</option>
+            <option>Cena — 21:30</option>
+            <option>Cena — 22:00</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="personas">Número de personas</label>
+          <select id="personas" name="personas" required>
+            <option value="">Elige</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10 o más (grupo)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="observaciones">Observaciones</label>
+          <textarea id="observaciones" name="observaciones" rows="3" placeholder="Alergias o intolerancias, trona para bebé, mesa en el patio, celebración..."></textarea>
+        </div>
+        <button class="btn btn--primary btn--lg" type="submit">Reservar mesa</button>
+        <p class="form__note">Guardamos la mesa 15 minutos. Para grupos de 10 o más te llamamos para cerrar el menú.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- 9. MAPA -->
+  <section class="section section--alt" id="donde">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Dónde estamos</p>
+        <h2>En el corazón de Santa Cruz</h2>
+        <p class="lead">Calle Santa Teresa 5 — entre la Plaza de Santa Cruz y el Callejón del Agua, a cinco minutos andando del Alcázar.</p>
+      </div>
+      <div class="map reveal">
+        <iframe title="Ubicación de Taberna El Postigo en Sevilla" loading="lazy"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-6.0055,37.3805,-5.9855,37.3925&layer=mapnik&marker=37.3865,-5.9955"></iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div>
+      <strong>Taberna El Postigo</strong>
+      <p>Calle Santa Teresa 5<br>41004 Sevilla</p>
+    </div>
+    <div>
+      <strong>Contacto</strong>
+      <p>692 20 39 81<br>hola@tabernaelpostigo.es</p>
+    </div>
+    <div>
+      <strong>Horario</strong>
+      <p>Martes a domingo: 13:00 – 16:30 y 20:00 – 23:30<br>Lunes: cerrado</p>
+    </div>
+  </div>
+  <div class="container">
+    <p class="form__note">© <span data-year></span> Taberna El Postigo. Demo de ejemplo — negocio ficticio.</p>
+  </div>
+  <span class="demo-ribbon">DEMO</span>
+</footer>
+</body>
+</html>

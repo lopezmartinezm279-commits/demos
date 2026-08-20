@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Diente con destello, símbolo de clínica dental">
+  <defs>
+    <linearGradient id="dBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a5f72"/><stop offset="1" stop-color="#0e7c93"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#dBg)"/>
+  <circle cx="400" cy="310" r="212" fill="#2fbfb0" opacity=".18"/>
+  <circle cx="400" cy="310" r="164" fill="#2fbfb0" opacity=".14"/>
+  <!-- diente -->
+  <path d="M400 120
+    C 486 120, 542 174, 542 250
+    C 542 322, 518 366, 502 428
+    C 490 476, 482 522, 458 522
+    C 434 522, 426 474, 414 440
+    C 407 420, 393 420, 386 440
+    C 374 474, 366 522, 342 522
+    C 318 522, 310 476, 298 428
+    C 282 366, 258 322, 258 250
+    C 258 174, 314 120, 400 120 Z"
+    fill="#ffffff"/>
+  <path d="M330 190 C 356 168, 400 164, 424 176" fill="none" stroke="#cfeef0" stroke-width="18" stroke-linecap="round"/>
+  <!-- destello -->
+  <path d="M604 190 l16 46 46 16 -46 16 -16 46 -16 -46 -46 -16 46 -16 z" fill="#ffffff"/>
+  <path d="M214 396 l10 30 30 10 -30 10 -10 30 -10 -30 -30 -10 30 -10 z" fill="#ffffff" opacity=".8"/>
+</svg>

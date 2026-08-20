@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Revisión pre-ITV: disco de freno, faro y linterna">
+  <defs>
+    <linearGradient id="tpiBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173d63"/><stop offset="1" stop-color="#23578c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#tpiBg)"/>
+  <circle cx="650" cy="480" r="180" fill="#f6b900" opacity=".10"/>
+  <circle cx="150" cy="110" r="130" fill="#eef2f7" opacity=".08"/>
+  <!-- disco de freno -->
+  <g transform="translate(260,320)">
+    <circle r="150" fill="#eef2f7"/>
+    <circle r="96" fill="#dbe3ec"/>
+    <circle r="54" fill="#173d63"/>
+    <g fill="#173d63">
+      <circle cx="0" cy="-75" r="13"/>
+      <circle cx="71" cy="-23" r="13"/>
+      <circle cx="44" cy="61" r="13"/>
+      <circle cx="-44" cy="61" r="13"/>
+      <circle cx="-71" cy="-23" r="13"/>
+    </g>
+    <!-- pinza de freno -->
+    <path d="M-46 -178 A 184 184 0 0 1 46 -178 L 34 -122 A 128 128 0 0 0 -34 -122 Z" fill="#f6b900"/>
+  </g>
+  <!-- faro -->
+  <g transform="translate(505,150)">
+    <path d="M120 30 L260 -14 L260 118 L120 84 Z" fill="#f6b900" opacity=".22"/>
+    <rect x="0" y="0" width="150" height="112" rx="34" fill="#eef2f7"/>
+    <circle cx="66" cy="56" r="36" fill="#f6b900"/>
+    <circle cx="66" cy="56" r="16" fill="#eef2f7"/>
+  </g>
+  <!-- linterna -->
+  <g transform="translate(500,430) rotate(-14)">
+    <path d="M186 -34 L320 -78 L320 46 L186 30 Z" fill="#f6b900" opacity=".22"/>
+    <rect x="0" y="-22" width="142" height="44" rx="20" fill="#eef2f7"/>
+    <rect x="134" y="-34" width="52" height="68" rx="12" fill="#f6b900"/>
+    <rect x="26" y="-22" width="20" height="44" fill="#173d63" opacity=".35"/>
+  </g>
+</svg>

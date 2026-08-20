@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Balanza de la justicia">
+  <defs>
+    <linearGradient id="aBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5c1a27"/><stop offset="1" stop-color="#7b2434"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#aBg)"/>
+  <rect x="120" y="86" width="560" height="428" fill="none" stroke="#a49c8d" stroke-width="2" opacity=".45"/>
+  <!-- mastil -->
+  <g fill="#faf8f4">
+    <rect x="386" y="150" width="28" height="336" rx="6"/>
+    <circle cx="400" cy="146" r="20"/>
+    <rect x="228" y="176" width="344" height="18" rx="9"/>
+    <path d="M320 486 L 480 486 L 508 528 L 292 528 Z"/>
+    <rect x="272" y="524" width="256" height="20" rx="10"/>
+  </g>
+  <!-- cuerdas -->
+  <g stroke="#a49c8d" stroke-width="5" fill="none" stroke-linejoin="round">
+    <path d="M252 194 L 252 258"/>
+    <path d="M548 194 L 548 258"/>
+    <path d="M186 262 L 252 196 L 318 262"/>
+    <path d="M482 262 L 548 196 L 614 262"/>
+  </g>
+  <!-- platos -->
+  <g fill="#a49c8d">
+    <path d="M172 258 H 332 A 80 80 0 0 1 172 258 Z"/>
+    <path d="M468 258 H 628 A 80 80 0 0 1 468 258 Z"/>
+  </g>
+  <g fill="#faf8f4" opacity=".9">
+    <rect x="168" y="252" width="168" height="12" rx="6"/>
+    <rect x="464" y="252" width="168" height="12" rx="6"/>
+  </g>
+</svg>

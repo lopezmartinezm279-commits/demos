@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-label="Ojo estilizado con ceja, símbolo de mirada descansada">
+  <defs>
+    <linearGradient id="cliGMirBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6f5330"/><stop offset="1" stop-color="#8d6b3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#cliGMirBg)"/>
+  <circle cx="580" cy="580" r="160" fill="#c98d84" opacity=".14"/>
+  <!-- ceja -->
+  <path d="M150 250 C260 180 460 180 560 260" fill="none" stroke="#fdfbf8" stroke-width="26" stroke-linecap="round"/>
+  <!-- ojo almendrado -->
+  <path d="M130 400 C220 300 480 300 570 400 C480 500 220 500 130 400 Z" fill="#fdfbf8"/>
+  <circle cx="350" cy="400" r="80" fill="#c98d84"/>
+  <circle cx="350" cy="400" r="36" fill="#3b342e"/>
+  <circle cx="376" cy="376" r="14" fill="#fdfbf8"/>
+  <!-- pestañas -->
+  <g fill="none" stroke="#fdfbf8" stroke-width="12" stroke-linecap="round">
+    <path d="M180 352 L150 322"/>
+    <path d="M250 322 L232 286"/>
+    <path d="M450 322 L468 286"/>
+    <path d="M520 352 L550 322"/>
+  </g>
+  <!-- destello -->
+  <path d="M590 170 l9 26 26 9 -26 9 -9 26 -9 -26 -26 -9 26 -9 z" fill="#fdfbf8" opacity=".85"/>
+</svg>

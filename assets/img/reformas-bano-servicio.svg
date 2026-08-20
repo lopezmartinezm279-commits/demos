@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Baño reformado con plato de ducha, mampara y mueble suspendido">
+  <defs>
+    <linearGradient id="refBanBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9a3412"/><stop offset="1" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#refBanBg)"/>
+  <circle cx="140" cy="110" r="150" fill="#faf8f5" opacity=".10"/>
+  <rect x="0" y="470" width="800" height="130" fill="#221c17" opacity=".18"/>
+  <!-- espejo y mueble suspendido -->
+  <circle cx="220" cy="190" r="90" fill="#faf8f5"/>
+  <circle cx="220" cy="190" r="70" fill="#f59e0b" opacity=".3"/>
+  <rect x="110" y="330" width="220" height="90" rx="14" fill="#faf8f5"/>
+  <ellipse cx="220" cy="330" rx="60" ry="14" fill="#f59e0b"/>
+  <rect x="150" y="368" width="60" height="10" rx="5" fill="#221c17"/>
+  <rect x="230" y="368" width="60" height="10" rx="5" fill="#221c17"/>
+  <!-- ducha -->
+  <path d="M560 70 V 110" fill="none" stroke="#faf8f5" stroke-width="12" stroke-linecap="round"/>
+  <ellipse cx="560" cy="120" rx="70" ry="16" fill="#faf8f5"/>
+  <g fill="none" stroke="#faf8f5" stroke-width="8" stroke-linecap="round" opacity=".6">
+    <path d="M520 160 V 200"/><path d="M560 160 V 210"/><path d="M600 160 V 200"/>
+  </g>
+  <!-- mampara -->
+  <rect x="440" y="90" width="14" height="380" rx="7" fill="#faf8f5"/>
+  <rect x="454" y="110" width="120" height="360" fill="#faf8f5" opacity=".14"/>
+  <path d="M454 110 H574" fill="none" stroke="#faf8f5" stroke-width="8" stroke-linecap="round"/>
+  <!-- plato de ducha -->
+  <rect x="440" y="452" width="300" height="34" rx="12" fill="#faf8f5"/>
+  <rect x="560" y="462" width="60" height="10" rx="5" fill="#221c17" opacity=".35"/>
+  <!-- toalla -->
+  <rect x="680" y="200" width="70" height="120" rx="10" fill="#f59e0b"/>
+  <path d="M680 240 H750" fill="none" stroke="#9a3412" stroke-width="8" opacity=".5"/>
+</svg>

@@ -1,0 +1,453 @@
+/* =====================================================================
+   themes.css — 1 bloque de variables por sector + toques de personalidad.
+   Cada página pone body.theme-<slug> y carga SOLO sus Google Fonts.
+   Paletas y personalidades según contrato (sección 4). Contraste AA.
+   ===================================================================== */
+
+/* =====================================================================
+   0. PORTADA — theme-home (neutra/oscura elegante, no clona sectores)
+   Fuentes: Sora + Inter
+   ===================================================================== */
+body.theme-home {
+  --brand: #8b7cf7;
+  --brand-600: #6f5ce0;
+  --brand-050: #1c1930;
+  --accent: #58c9b0;
+  --ink: #f2f4f8;
+  --muted: #9aa3b2;
+  --bg: #0f1115;
+  --surface: #171a21;
+  --line: #262b35;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --btn-radius: 12px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, .35);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, .5);
+  --font: "Inter", system-ui, sans-serif;
+  --font-head: "Sora", system-ui, sans-serif;
+  --head-weight: 700;
+  --head-spacing: -0.015em;
+  --head-transform: none;
+  --hero-overlay: radial-gradient(90% 70% at 50% 0%, rgba(139, 124, 247, .22), rgba(15, 17, 21, 0) 70%);
+  --maxw: 1140px;
+
+  --on-brand: #15122e;
+  --eyebrow-ink: #a99df9;
+  --chip-ink: #c9c1fb;
+  --alt-bg: #13161c;
+  --header-bg: #0f1115;
+  --footer-bg: #0b0d10;
+  --footer-ink: #dfe3ea;
+}
+body.theme-home a:not(.btn) { color: #a99df9; }
+body.theme-home a:not(.btn):hover { color: #c9c1fb; }
+body.theme-home .card__more { color: #a99df9; }
+body.theme-home .hero--center::before { background: var(--hero-overlay); }
+
+/* =====================================================================
+   1. REFORMAS — industrial: ámbar obra + carbón, radios pequeños,
+   sombras duras, titulares en mayúsculas. Fuente: Archivo.
+   Hero: .hero--split con .hero__stats
+   ===================================================================== */
+body.theme-reformas {
+  --brand: #c2410c;
+  --brand-600: #9a3412;
+  --brand-050: #fdeee4;
+  --accent: #f59e0b;
+  --ink: #221c17;
+  --muted: #695d52;
+  --bg: #faf8f5;
+  --surface: #ffffff;
+  --line: #e8e0d5;
+  --radius: 4px;
+  --radius-lg: 8px;
+  --btn-radius: 4px;
+  --shadow: 0 3px 0 rgba(34, 28, 23, .12);
+  --shadow-lg: 0 12px 28px rgba(34, 28, 23, .18);
+  --font: "Archivo", system-ui, sans-serif;
+  --font-head: "Archivo", system-ui, sans-serif;
+  --head-weight: 800;
+  --head-spacing: .02em;
+  --head-transform: uppercase;
+  --hero-overlay: linear-gradient(165deg, rgba(34, 28, 23, .08), rgba(34, 28, 23, .3));
+  --maxw: 1120px;
+}
+body.theme-reformas .site-header { border-bottom: 3px solid var(--brand); }
+body.theme-reformas .btn { text-transform: uppercase; letter-spacing: .05em; font-size: .88rem; }
+body.theme-reformas .eyebrow,
+body.theme-reformas .hero__eyebrow { color: var(--accent); text-shadow: 0 0 0 currentColor; }
+body.theme-reformas .eyebrow { color: var(--brand); }
+
+/* =====================================================================
+   2. CLÍNICAS — elegante/beauty: champán, rosa empolvado, mucho blanco.
+   Fuentes: Cormorant Garamond + Jost. Radios grandes, sombras suaves.
+   Hero: .hero--center (overlay claro sobre foto)
+   ===================================================================== */
+body.theme-clinicas {
+  --brand: #8d6b3f;
+  --brand-600: #6f5330;
+  --brand-050: #f7f0e6;
+  --accent: #c98d84;
+  --ink: #3b342e;
+  --muted: #857a6f;
+  --bg: #fdfbf8;
+  --surface: #ffffff;
+  --line: #ece3d8;
+  --radius: 24px;
+  --radius-lg: 32px;
+  --btn-radius: 999px;
+  --shadow: 0 8px 28px rgba(125, 104, 80, .09);
+  --shadow-lg: 0 20px 52px rgba(125, 104, 80, .15);
+  --font: "Jost", system-ui, sans-serif;
+  --font-head: "Cormorant Garamond", Georgia, serif;
+  --head-weight: 500;
+  --head-spacing: .01em;
+  --head-transform: none;
+  --hero-overlay: linear-gradient(180deg, rgba(253, 251, 248, .9), rgba(253, 251, 248, .55));
+  --maxw: 1080px;
+}
+body.theme-clinicas h1, body.theme-clinicas h2 { line-height: 1.08; }
+body.theme-clinicas .eyebrow,
+body.theme-clinicas .hero__eyebrow { letter-spacing: .26em; font-weight: 500; }
+body.theme-clinicas .site-header {
+  background: rgba(253, 251, 248, .86);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+body.theme-clinicas .btn { font-weight: 600; letter-spacing: .04em; }
+
+/* =====================================================================
+   3. SOLAR — tech/limpio: verde + azul cielo, degradados.
+   Fuentes: Space Grotesk + Inter. Radios 14px.
+   Hero: .hero--card (degradado + tarjeta-calculadora flotante)
+   ===================================================================== */
+body.theme-solar {
+  --brand: #15803d;
+  --brand-600: #116330;
+  --brand-050: #e7f6ec;
+  --accent: #0284c7;
+  --ink: #101c2c;
+  --muted: #4e5f76;
+  --bg: #f6fafb;
+  --surface: #ffffff;
+  --line: #dfe8ee;
+  --radius: 14px;
+  --radius-lg: 18px;
+  --btn-radius: 12px;
+  --shadow: 0 6px 18px rgba(13, 40, 60, .08);
+  --shadow-lg: 0 18px 44px rgba(13, 40, 60, .15);
+  --font: "Inter", system-ui, sans-serif;
+  --font-head: "Space Grotesk", system-ui, sans-serif;
+  --head-weight: 700;
+  --head-spacing: -0.01em;
+  --head-transform: none;
+  --hero-overlay: linear-gradient(135deg, #0a3d22 0%, #116330 48%, #075a7a 100%);
+  --maxw: 1140px;
+}
+body.theme-solar .hero--card { color: #ffffff; }
+body.theme-solar .hero--card .hero__lead { color: rgba(255, 255, 255, .88); }
+body.theme-solar .hero--card .hero__eyebrow { color: #8ef0b0; }
+body.theme-solar .hero--card .hero__stats { border-top-color: rgba(255, 255, 255, .28); }
+body.theme-solar .hero--card .stat__num { color: #8ef0b0; }
+body.theme-solar .hero--card .stat__label { color: rgba(255, 255, 255, .75); }
+body.theme-solar .btn--primary {
+  background: linear-gradient(120deg, #15803d, #0e6f52);
+}
+body.theme-solar .btn--primary:hover { background: var(--brand-600); }
+
+/* =====================================================================
+   4. TALLER — mecánico: azul acero + amarillo señal, franjas diagonales.
+   Fuentes: Oswald + Roboto. Radios 2px, mayúsculas, robusto.
+   Hero: .hero--full (oscuro a sangre)
+   ===================================================================== */
+body.theme-taller {
+  --brand: #23578c;
+  --brand-600: #173d63;
+  --brand-050: #e9f1f8;
+  --accent: #f6b900;
+  --ink: #171b20;
+  --muted: #4d5661;
+  --bg: #f3f4f6;
+  --surface: #ffffff;
+  --line: #dce0e5;
+  --radius: 2px;
+  --radius-lg: 4px;
+  --btn-radius: 2px;
+  --shadow: 0 2px 0 rgba(23, 27, 32, .14);
+  --shadow-lg: 0 12px 30px rgba(23, 27, 32, .2);
+  --font: "Roboto", system-ui, sans-serif;
+  --font-head: "Oswald", system-ui, sans-serif;
+  --head-weight: 600;
+  --head-spacing: .05em;
+  --head-transform: uppercase;
+  --hero-overlay: linear-gradient(180deg, rgba(12, 17, 24, .62), rgba(12, 17, 24, .85));
+  --maxw: 1140px;
+
+  --header-bg: #14202e;
+}
+body.theme-taller .site-header { color: #eef2f7; border-bottom: 0; }
+body.theme-taller .site-header::after {
+  content: "";
+  display: block;
+  height: 6px;
+  background: repeating-linear-gradient(135deg, #f6b900 0 14px, #14202e 14px 28px);
+}
+body.theme-taller .site-nav { background: #14202e; }
+body.theme-taller .site-nav a:hover,
+body.theme-taller .logo:hover { color: var(--accent); }
+body.theme-taller .nav-toggle { border-color: rgba(255, 255, 255, .25); }
+body.theme-taller .btn { text-transform: uppercase; letter-spacing: .07em; font-family: var(--font-head); font-weight: 500; }
+body.theme-taller .hero--full .hero__eyebrow { color: var(--accent); }
+body.theme-taller .hero--full .stat__num { color: var(--accent); }
+
+/* =====================================================================
+   5. INMOBILIARIA — clásico premium: azul marino + dorado.
+   Fuentes: Playfair Display + Inter. Radios 6px.
+   Hero: .hero--card (buscador superpuesto sobre foto)
+   ===================================================================== */
+body.theme-inmobiliaria {
+  --brand: #142a4c;
+  --brand-600: #0d1d36;
+  --brand-050: #edf1f7;
+  --accent: #b9924b;
+  --ink: #1c2434;
+  --muted: #5c6678;
+  --bg: #f8f7f4;
+  --surface: #ffffff;
+  --line: #e4e1d8;
+  --radius: 6px;
+  --radius-lg: 10px;
+  --btn-radius: 6px;
+  --shadow: 0 8px 20px rgba(20, 42, 76, .08);
+  --shadow-lg: 0 22px 48px rgba(20, 42, 76, .16);
+  --font: "Inter", system-ui, sans-serif;
+  --font-head: "Playfair Display", Georgia, serif;
+  --head-weight: 700;
+  --head-spacing: 0em;
+  --head-transform: none;
+  --hero-overlay: linear-gradient(180deg, rgba(13, 25, 44, .55), rgba(13, 25, 44, .78));
+  --maxw: 1160px;
+
+  --header-bg: #142a4c;
+  --eyebrow-ink: #a17c35;
+}
+body.theme-inmobiliaria .site-header { color: #f4f1ea; border-bottom: 1px solid rgba(185, 146, 75, .4); }
+body.theme-inmobiliaria .site-nav { background: #142a4c; }
+body.theme-inmobiliaria .logo { color: #d9b87b; }
+body.theme-inmobiliaria .site-nav a:hover { color: #d9b87b; }
+body.theme-inmobiliaria .nav-toggle { border-color: rgba(255, 255, 255, .25); }
+body.theme-inmobiliaria .hero--card { color: #ffffff; }
+body.theme-inmobiliaria .hero--card .hero__lead { color: rgba(255, 255, 255, .88); }
+body.theme-inmobiliaria .hero--card .hero__eyebrow { color: #d9b87b; }
+body.theme-inmobiliaria .btn--primary:hover { background: #35507a; }
+body.theme-inmobiliaria .price-card__price { color: var(--accent); }
+
+/* =====================================================================
+   6. DENTISTA — sanitario amable: turquesa, blanco, redondeado.
+   Fuente: Poppins. Radios 20-28px.
+   Hero: .hero--split (claro, foto con esquinas orgánicas)
+   ===================================================================== */
+body.theme-dentista {
+  --brand: #0e7c93;
+  --brand-600: #0a5f72;
+  --brand-050: #e4f5f8;
+  --accent: #2fbfb0;
+  --ink: #16323b;
+  --muted: #58707a;
+  --bg: #f5fafb;
+  --surface: #ffffff;
+  --line: #dcebee;
+  --radius: 22px;
+  --radius-lg: 28px;
+  --btn-radius: 999px;
+  --shadow: 0 8px 24px rgba(14, 124, 147, .1);
+  --shadow-lg: 0 20px 48px rgba(14, 124, 147, .16);
+  --font: "Poppins", system-ui, sans-serif;
+  --font-head: "Poppins", system-ui, sans-serif;
+  --head-weight: 600;
+  --head-spacing: -0.01em;
+  --head-transform: none;
+  --hero-overlay: linear-gradient(180deg, rgba(245, 250, 251, .88), rgba(245, 250, 251, .45));
+  --maxw: 1100px;
+}
+body.theme-dentista .hero--split .hero__media img {
+  border-radius: 36px 120px 36px 120px;
+}
+body.theme-dentista .feature__icon { border-radius: 50%; }
+body.theme-dentista .btn { font-weight: 600; }
+
+/* =====================================================================
+   7. FISIO — natural/bienestar: salvia + terracota + crema.
+   Fuentes: Fraunces + Nunito Sans. Radios orgánicos, mucho aire.
+   Hero: .hero--split o .hero--center calmado
+   ===================================================================== */
+body.theme-fisio {
+  --brand: #4f6f56;
+  --brand-600: #3c5743;
+  --brand-050: #edf3ec;
+  --accent: #b25b3d;
+  --ink: #2c312a;
+  --muted: #6d7267;
+  --bg: #faf7f0;
+  --surface: #fffdf8;
+  --line: #e6e0d1;
+  --radius: 28px;
+  --radius-lg: 32px;
+  --btn-radius: 999px;
+  --shadow: 0 8px 24px rgba(60, 70, 55, .08);
+  --shadow-lg: 0 20px 44px rgba(60, 70, 55, .14);
+  --font: "Nunito Sans", system-ui, sans-serif;
+  --font-head: "Fraunces", Georgia, serif;
+  --head-weight: 600;
+  --head-spacing: 0em;
+  --head-transform: none;
+  --hero-overlay: linear-gradient(180deg, rgba(250, 247, 240, .92), rgba(250, 247, 240, .55));
+  --maxw: 1060px;
+
+  --eyebrow-ink: #b25b3d;
+}
+body.theme-fisio .section { padding-block: clamp(68px, 11vw, 124px); }
+body.theme-fisio .hero--split .hero__media img { border-radius: 48% 52% 46% 54% / 42% 46% 54% 58%; }
+body.theme-fisio .chip { background: #f3e7dc; color: #8c4227; }
+
+/* =====================================================================
+   8. ABOGADOS — sobrio institucional: granate + piedra + crema.
+   Fuentes: Lora + Inter. Radios 2px, casi sin sombras, mucho blanco.
+   Hero: .hero--editorial (con filete)
+   ===================================================================== */
+body.theme-abogados {
+  --brand: #7b2434;
+  --brand-600: #5c1a27;
+  --brand-050: #f6edee;
+  --accent: #a49c8d;
+  --ink: #262220;
+  --muted: #6e675e;
+  --bg: #faf8f4;
+  --surface: #fffefb;
+  --line: #e6e1d7;
+  --radius: 2px;
+  --radius-lg: 2px;
+  --btn-radius: 2px;
+  --shadow: none;
+  --shadow-lg: 0 10px 30px rgba(38, 34, 32, .08);
+  --font: "Inter", system-ui, sans-serif;
+  --font-head: "Lora", Georgia, serif;
+  --head-weight: 600;
+  --head-spacing: 0em;
+  --head-transform: none;
+  --hero-overlay: linear-gradient(180deg, rgba(38, 34, 32, 0), rgba(38, 34, 32, .05));
+  --maxw: 1020px;
+}
+body.theme-abogados .eyebrow,
+body.theme-abogados .hero__eyebrow { letter-spacing: .24em; }
+body.theme-abogados .site-header { border-bottom: 1px solid var(--ink); }
+body.theme-abogados .card:hover,
+body.theme-abogados a.card:hover { transform: none; box-shadow: var(--shadow-lg); }
+body.theme-abogados .btn { font-weight: 600; letter-spacing: .02em; }
+body.theme-abogados .section-head h2 { font-weight: 500; }
+
+/* =====================================================================
+   9. BARBERÍA — DARK completo: negro/carbón + dorado cobre.
+   Fuentes: Bebas Neue + Inter. Radios 0, todo mayúsculas.
+   Hero: .hero--full (foto en b/n)
+   ===================================================================== */
+body.theme-barberia {
+  --brand: #c8963e;
+  --brand-600: #a87b2d;
+  --brand-050: #241d10;
+  --accent: #b46a3c;
+  --ink: #f0e9dc;
+  --muted: #a49c8d;
+  --bg: #0e0e0f;
+  --surface: #17181a;
+  --line: #2b2c30;
+  --radius: 0px;
+  --radius-lg: 0px;
+  --btn-radius: 0px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, .5);
+  --shadow-lg: 0 24px 56px rgba(0, 0, 0, .65);
+  --font: "Inter", system-ui, sans-serif;
+  --font-head: "Bebas Neue", "Arial Narrow", sans-serif;
+  --head-weight: 400;
+  --head-spacing: .08em;
+  --head-transform: uppercase;
+  --hero-overlay: linear-gradient(180deg, rgba(10, 10, 11, .6), rgba(10, 10, 11, .92));
+  --maxw: 1080px;
+
+  --on-brand: #191307;
+  --eyebrow-ink: #c8963e;
+  --chip-ink: #e2c185;
+  --alt-bg: #141416;
+  --header-bg: #0b0b0c;
+  --footer-bg: #0b0b0c;
+  --footer-ink: #e6dfd2;
+  --star-color: #d9ab54;
+}
+body.theme-barberia a:not(.btn) { color: #d9ab54; }
+body.theme-barberia a:not(.btn):hover { color: #e2c185; }
+body.theme-barberia .card__more { color: #d9ab54; }
+body.theme-barberia .hero__bg img { filter: grayscale(1) contrast(1.08); }
+body.theme-barberia .btn { border-radius: 0; text-transform: uppercase; letter-spacing: .12em; font-size: .88rem; }
+body.theme-barberia .btn--ghost { color: #d9ab54; }
+body.theme-barberia .btn--ghost:hover { background: var(--brand-050); color: #e2c185; }
+body.theme-barberia h1, body.theme-barberia h2 { letter-spacing: .06em; }
+body.theme-barberia .site-header { border-bottom: 1px solid var(--brand-050); }
+body.theme-barberia .field input:focus,
+body.theme-barberia .field select:focus,
+body.theme-barberia .field textarea:focus { box-shadow: 0 0 0 3px rgba(200, 150, 62, .25); }
+
+/* =====================================================================
+   10. RESTAURANTE — DARK cálido: oliva profundo + burdeos + crema.
+   Fuentes: DM Serif Display + Karla. Radios 4px.
+   Hero: .hero--full (foto de plato, overlay oscuro)
+   ===================================================================== */
+body.theme-restaurante {
+  --brand: #8d3a47;
+  --brand-600: #722e39;
+  --brand-050: #2a2126;
+  --accent: #c9a35f;
+  --ink: #f1ead9;
+  --muted: #b6ae9a;
+  --bg: #171c13;
+  --surface: #212819;
+  --line: #35402c;
+  --radius: 4px;
+  --radius-lg: 8px;
+  --btn-radius: 4px;
+  --shadow: 0 10px 28px rgba(0, 0, 0, .45);
+  --shadow-lg: 0 22px 52px rgba(0, 0, 0, .6);
+  --font: "Karla", system-ui, sans-serif;
+  --font-head: "DM Serif Display", Georgia, serif;
+  --head-weight: 400;
+  --head-spacing: .01em;
+  --head-transform: none;
+  --hero-overlay: linear-gradient(180deg, rgba(16, 20, 13, .55), rgba(16, 20, 13, .88));
+  --maxw: 1080px;
+
+  --on-brand: #fdf6e8;
+  --eyebrow-ink: #c9a35f;
+  --chip-ink: #e0c084;
+  --alt-bg: #1d2418;
+  --header-bg: #12160f;
+  --footer-bg: #101409;
+  --footer-ink: #e8e1cf;
+  --star-color: #d8b264;
+}
+body.theme-restaurante a:not(.btn) { color: #d8b264; }
+body.theme-restaurante a:not(.btn):hover { color: #e0c084; }
+body.theme-restaurante .card__more { color: #d8b264; }
+body.theme-restaurante .logo { color: var(--accent); }
+body.theme-restaurante .hero--full .hero__eyebrow { color: var(--accent); }
+body.theme-restaurante .btn--ghost { color: #d8b264; }
+body.theme-restaurante .btn--ghost:hover { background: rgba(201, 163, 95, .12); color: #e0c084; }
+body.theme-restaurante .tabs__nav button { background: transparent; color: var(--ink); }
+body.theme-restaurante .tabs__nav button:hover { border-color: var(--accent); color: var(--accent); }
+body.theme-restaurante .tabs__nav button.is-active,
+body.theme-restaurante .tabs__nav button[aria-selected="true"] {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: var(--on-brand);
+}
+body.theme-restaurante .field input:focus,
+body.theme-restaurante .field select:focus,
+body.theme-restaurante .field textarea:focus { box-shadow: 0 0 0 3px rgba(201, 163, 95, .22); }

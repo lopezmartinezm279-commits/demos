@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Huella del pie sobre plataforma de presiones con mapa de zonas de color">
+  <defs>
+    <linearGradient id="fppBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3c5743"/><stop offset="1" stop-color="#4f6f56"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fppBg)"/>
+  <circle cx="670" cy="120" r="150" fill="#b25b3d" opacity=".14"/>
+  <!-- plataforma de presiones -->
+  <rect x="230" y="60" width="340" height="480" rx="28" fill="#2c312a"/>
+  <g stroke="#faf7f0" stroke-width="3" opacity=".18" fill="none">
+    <path d="M230 156 H 570"/><path d="M230 252 H 570"/><path d="M230 348 H 570"/><path d="M230 444 H 570"/>
+    <path d="M315 60 V 540"/><path d="M400 60 V 540"/><path d="M485 60 V 540"/>
+  </g>
+  <!-- huella con zonas de presión -->
+  <g transform="translate(400,300)">
+    <path d="M-8 -196 Q84 -196 88 -104 Q92 -30 66 56 Q48 118 52 156 Q56 208 8 208 Q-44 208 -52 158 Q-60 108 -74 44 Q-92 -40 -84 -110 Q-76 -196 -8 -196 Z" fill="#faf7f0"/>
+    <!-- antepié: presión media-alta -->
+    <ellipse cx="0" cy="-124" rx="72" ry="52" fill="#d9a441"/>
+    <ellipse cx="14" cy="-130" rx="38" ry="30" fill="#b25b3d"/>
+    <!-- arco: presión baja -->
+    <ellipse cx="-12" cy="18" rx="40" ry="62" fill="#7f9c86"/>
+    <!-- talón: presión alta -->
+    <ellipse cx="4" cy="152" rx="46" ry="48" fill="#d9a441"/>
+    <ellipse cx="6" cy="156" rx="26" ry="28" fill="#b25b3d"/>
+  </g>
+  <!-- dedos -->
+  <g fill="#faf7f0">
+    <circle cx="332" cy="70" r="24"/>
+    <circle cx="384" cy="56" r="19"/>
+    <circle cx="428" cy="60" r="16"/>
+    <circle cx="464" cy="74" r="14"/>
+    <circle cx="494" cy="96" r="12"/>
+  </g>
+  <!-- leyenda de zonas -->
+  <g>
+    <circle cx="656" cy="380" r="18" fill="#b25b3d"/>
+    <circle cx="656" cy="436" r="18" fill="#d9a441"/>
+    <circle cx="656" cy="492" r="18" fill="#7f9c86"/>
+    <rect x="688" y="368" width="60" height="24" rx="12" fill="#faf7f0" opacity=".7"/>
+    <rect x="688" y="424" width="60" height="24" rx="12" fill="#faf7f0" opacity=".5"/>
+    <rect x="688" y="480" width="60" height="24" rx="12" fill="#faf7f0" opacity=".3"/>
+  </g>
+</svg>

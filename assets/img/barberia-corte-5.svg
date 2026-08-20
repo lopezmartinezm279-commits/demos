@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-label="Toalla caliente enrollada, bol de espuma y brocha">
+  <defs>
+    <linearGradient id="bc5Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1b1e"/><stop offset="1" stop-color="#0e0e0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#bc5Bg)"/>
+  <circle cx="350" cy="360" r="270" fill="#c8963e" opacity=".08"/>
+  <!-- vapor -->
+  <g stroke="#f0e9dc" stroke-width="12" fill="none" stroke-linecap="round" opacity=".4">
+    <path d="M280 150 Q 260 110 280 70"/>
+    <path d="M350 140 Q 330 100 350 60"/>
+    <path d="M420 150 Q 400 110 420 70"/>
+  </g>
+  <!-- toalla enrollada -->
+  <g>
+    <rect x="150" y="200" width="400" height="130" rx="65" fill="#f0e9dc"/>
+    <circle cx="550" cy="265" r="65" fill="#f0e9dc"/>
+    <circle cx="550" cy="265" r="65" fill="none" stroke="#c8963e" stroke-width="12"/>
+    <circle cx="550" cy="265" r="34" fill="none" stroke="#c8963e" stroke-width="12"/>
+    <circle cx="550" cy="265" r="8" fill="#c8963e"/>
+    <g stroke="#c8963e" stroke-width="10" fill="none" opacity=".7">
+      <path d="M230 214 Q 244 265 230 316"/>
+      <path d="M330 208 Q 344 265 330 322"/>
+      <path d="M430 210 Q 444 265 430 320"/>
+    </g>
+  </g>
+  <!-- bol -->
+  <g>
+    <path d="M170 430 H 430 A 130 118 0 0 1 170 430 Z" fill="#b46a3c"/>
+    <rect x="150" y="414" width="300" height="34" rx="17" fill="#c8963e"/>
+    <path d="M190 414 Q 240 386 300 400 Q 360 386 410 414 Z" fill="#f0e9dc"/>
+  </g>
+  <!-- brocha apoyada -->
+  <g transform="rotate(-28 520 500)">
+    <path d="M470 420 Q 520 356 570 420 L 570 446 L 470 446 Z" fill="#f0e9dc"/>
+    <rect x="482" y="446" width="76" height="26" rx="10" fill="#c8963e"/>
+    <path d="M492 472 Q 486 560 512 574 H 528 Q 554 560 548 472 Z" fill="#b46a3c"/>
+  </g>
+</svg>

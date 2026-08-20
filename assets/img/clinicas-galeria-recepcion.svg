@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-label="Recepción de la clínica con mostrador, lámparas y planta">
+  <defs>
+    <linearGradient id="cliGRecBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6f5330"/><stop offset="1" stop-color="#8d6b3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#cliGRecBg)"/>
+  <circle cx="600" cy="120" r="130" fill="#c98d84" opacity=".14"/>
+  <rect x="0" y="540" width="700" height="160" fill="#3b342e" opacity=".16"/>
+  <!-- logo circular en pared -->
+  <circle cx="350" cy="180" r="70" fill="none" stroke="#fdfbf8" stroke-width="12"/>
+  <circle cx="350" cy="180" r="34" fill="#c98d84"/>
+  <!-- lámparas colgantes -->
+  <path d="M160 0 V 110 M540 0 V 110" fill="none" stroke="#3b342e" stroke-width="8"/>
+  <path d="M120 160 a40 40 0 0 1 80 0 z" fill="#c98d84"/>
+  <path d="M500 160 a40 40 0 0 1 80 0 z" fill="#c98d84"/>
+  <!-- mostrador -->
+  <rect x="110" y="380" width="420" height="26" rx="10" fill="#c98d84"/>
+  <rect x="130" y="406" width="380" height="160" rx="14" fill="#fdfbf8"/>
+  <path d="M130 500 H 510" fill="none" stroke="#c98d84" stroke-width="8" opacity=".5"/>
+  <!-- jarrón sobre el mostrador -->
+  <rect x="290" y="330" width="40" height="50" rx="12" fill="#fdfbf8"/>
+  <path d="M310 330 C296 300 296 280 310 262 C324 280 324 300 310 330 Z" fill="#c98d84"/>
+  <!-- planta -->
+  <rect x="574" y="440" width="86" height="110" rx="12" fill="#3b342e" opacity=".85"/>
+  <path d="M617 440 C574 366 574 312 617 266 C660 312 660 366 617 440 Z" fill="#fdfbf8" opacity=".85"/>
+  <path d="M617 440 C566 396 540 372 530 322 C586 320 606 358 617 440 Z" fill="#c98d84" opacity=".8"/>
+</svg>

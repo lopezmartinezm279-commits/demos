@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-label="Labios perfilados con destello">
+  <defs>
+    <linearGradient id="cliGLabBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6f5330"/><stop offset="1" stop-color="#8d6b3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#cliGLabBg)"/>
+  <circle cx="350" cy="360" r="240" fill="#fdfbf8" opacity=".14"/>
+  <circle cx="590" cy="120" r="120" fill="#c98d84" opacity=".16"/>
+  <!-- labio superior -->
+  <path d="M160 372 C214 300 296 282 334 318 C342 326 358 326 366 318 C404 282 486 300 540 372 C480 386 220 386 160 372 Z" fill="#c98d84"/>
+  <!-- labio inferior -->
+  <path d="M160 372 C220 386 480 386 540 372 C512 460 420 500 350 500 C280 500 188 460 160 372 Z" fill="#c98d84"/>
+  <!-- línea de la boca -->
+  <path d="M170 372 C260 390 440 390 530 372" fill="none" stroke="#6f5330" stroke-width="10" stroke-linecap="round" opacity=".55"/>
+  <!-- brillo -->
+  <ellipse cx="290" cy="436" rx="52" ry="22" fill="#fdfbf8" opacity=".45"/>
+  <!-- destellos -->
+  <g fill="#fdfbf8">
+    <path d="M552 224 l10 30 30 10 -30 10 -10 30 -10 -30 -30 -10 30 -10 z"/>
+    <path d="M150 540 l8 24 24 8 -24 8 -8 24 -8 -24 -24 -8 24 -8 z" opacity=".8"/>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Fachada de casa adosada de dos plantas con patio y macetas">
+  <defs>
+    <linearGradient id="ref106Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1d36"/><stop offset="1" stop-color="#142a4c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#ref106Bg)"/>
+  <circle cx="620" cy="130" r="150" fill="#b9924b" opacity=".12"/>
+  <!-- tejado -->
+  <path d="M120 210 L 320 100 L 520 210 Z" fill="#b9924b"/>
+  <rect x="100" y="200" width="440" height="16" rx="8" fill="#b9924b"/>
+  <!-- fachada dos plantas -->
+  <rect x="150" y="216" width="340" height="304" rx="6" fill="#f8f7f4"/>
+  <!-- ventanas planta alta -->
+  <g fill="#142a4c">
+    <rect x="190" y="250" width="70" height="80" rx="6"/>
+    <rect x="390" y="250" width="70" height="80" rx="6"/>
+  </g>
+  <rect x="182" y="326" width="86" height="10" rx="5" fill="#b9924b"/>
+  <rect x="382" y="326" width="86" height="10" rx="5" fill="#b9924b"/>
+  <!-- puerta y ventana planta baja -->
+  <rect x="290" y="390" width="80" height="130" rx="6" fill="#142a4c"/>
+  <circle cx="352" cy="458" r="6" fill="#b9924b"/>
+  <path d="M282 390 A 48 48 0 0 1 378 390" fill="#b9924b"/>
+  <rect x="180" y="400" width="70" height="70" rx="6" fill="#142a4c"/>
+  <g fill="none" stroke="#b9924b" stroke-width="6">
+    <path d="M190 400 L 190 470"/><path d="M212 400 L 212 470"/><path d="M234 400 L 234 470"/>
+  </g>
+  <!-- muro del patio con puerta -->
+  <rect x="490" y="360" width="240" height="160" rx="6" fill="#f8f7f4" opacity=".85"/>
+  <rect x="560" y="396" width="70" height="124" rx="6" fill="#b9924b"/>
+  <path d="M552 398 A 43 43 0 0 1 638 398" fill="none" stroke="#b9924b" stroke-width="10"/>
+  <!-- macetas colgadas en el muro -->
+  <g fill="#b9924b" opacity=".85">
+    <circle cx="672" cy="392" r="14"/><circle cx="700" cy="380" r="11"/>
+  </g>
+  <path d="M658 400 L 692 400 L 686 432 L 664 432 Z" fill="#142a4c"/>
+  <g fill="#b9924b" opacity=".85">
+    <circle cx="512" cy="330" r="14"/><circle cx="536" cy="318" r="11"/>
+  </g>
+  <path d="M500 338 L 534 338 L 528 370 L 506 370 Z" fill="#142a4c"/>
+  <!-- macetas al pie -->
+  <g fill="#b9924b">
+    <path d="M104 460 Q 94 416 120 394 Q 124 434 112 460 Z"/>
+    <path d="M124 460 Q 142 420 120 390 Q 106 428 114 460 Z" opacity=".7"/>
+  </g>
+  <path d="M88 458 L 142 458 L 132 520 L 98 520 Z" fill="#f8f7f4"/>
+  <!-- acera -->
+  <rect x="60" y="536" width="680" height="14" rx="7" fill="#b9924b" opacity=".45"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Engranaje y llave inglesa de taller mecánico">
+  <defs>
+    <linearGradient id="tBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173d63"/><stop offset="1" stop-color="#23578c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#tBg)"/>
+  <!-- franjas diagonales de fondo -->
+  <g stroke="#f6b900" stroke-width="26" opacity=".10" fill="none">
+    <path d="M-60 640 L 320 -40"/><path d="M40 640 L 420 -40"/><path d="M140 640 L 520 -40"/>
+  </g>
+  <!-- engranaje -->
+  <g transform="translate(322,300)">
+    <g fill="#f6b900">
+      <rect x="-20" y="-150" width="40" height="58" rx="7"/>
+      <rect x="-20" y="-150" width="40" height="58" rx="7" transform="rotate(45)"/>
+      <rect x="-20" y="-150" width="40" height="58" rx="7" transform="rotate(90)"/>
+      <rect x="-20" y="-150" width="40" height="58" rx="7" transform="rotate(135)"/>
+      <rect x="-20" y="-150" width="40" height="58" rx="7" transform="rotate(180)"/>
+      <rect x="-20" y="-150" width="40" height="58" rx="7" transform="rotate(225)"/>
+      <rect x="-20" y="-150" width="40" height="58" rx="7" transform="rotate(270)"/>
+      <rect x="-20" y="-150" width="40" height="58" rx="7" transform="rotate(315)"/>
+    </g>
+    <circle r="108" fill="#f6b900"/>
+    <circle r="48" fill="#173d63"/>
+  </g>
+  <!-- llave inglesa -->
+  <g transform="translate(512,352) rotate(38)">
+    <rect x="16" y="-19" width="216" height="38" rx="19" fill="#eef2f7"/>
+    <circle cx="16" cy="0" r="54" fill="#eef2f7"/>
+    <circle cx="16" cy="0" r="27" fill="#173d63"/>
+    <path d="M-8 -30 L 44 -30 L 44 -12 L -8 -12 Z" fill="#173d63"/>
+    <path d="M-8 30 L 44 30 L 44 12 L -8 12 Z" fill="#173d63"/>
+  </g>
+</svg>

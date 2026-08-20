@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Poste de barbería y tijeras">
+  <defs>
+    <linearGradient id="bBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17181a"/><stop offset="1" stop-color="#0e0e0f"/>
+    </linearGradient>
+    <clipPath id="bPole"><rect x="228" y="146" width="96" height="312" rx="48"/></clipPath>
+  </defs>
+  <rect width="800" height="600" fill="url(#bBg)"/>
+  <circle cx="276" cy="300" r="230" fill="#c8963e" opacity=".07"/>
+  <!-- poste -->
+  <g clip-path="url(#bPole)">
+    <rect x="228" y="146" width="96" height="312" fill="#f0e9dc"/>
+    <g stroke="#c8963e" stroke-width="30" fill="none">
+      <path d="M180 200 L 372 60"/>
+      <path d="M180 290 L 372 150"/>
+      <path d="M180 380 L 372 240"/>
+      <path d="M180 470 L 372 330"/>
+      <path d="M180 560 L 372 420"/>
+    </g>
+  </g>
+  <rect x="228" y="146" width="96" height="312" rx="48" fill="none" stroke="#c8963e" stroke-width="8"/>
+  <g fill="#c8963e">
+    <rect x="212" y="112" width="128" height="34" rx="12"/>
+    <rect x="212" y="458" width="128" height="34" rx="12"/>
+    <circle cx="276" cy="98" r="17"/>
+  </g>
+  <!-- tijeras -->
+  <g transform="translate(560,300)" stroke="#f0e9dc" stroke-width="17" fill="none" stroke-linecap="round">
+    <path d="M-72 -150 L 60 68"/>
+    <path d="M72 -150 L -60 68"/>
+  </g>
+  <g fill="none" stroke="#c8963e" stroke-width="17">
+    <circle cx="512" cy="404" r="40"/>
+    <circle cx="608" cy="404" r="40"/>
+  </g>
+  <circle cx="560" cy="322" r="12" fill="#c8963e"/>
+</svg>

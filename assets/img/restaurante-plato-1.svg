@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-label="Salmorejo cordobés con virutas de jamón y huevo">
+  <defs>
+    <linearGradient id="rp1Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#212819"/><stop offset="1" stop-color="#171c13"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#rp1Bg)"/>
+  <circle cx="350" cy="350" r="290" fill="#c9a35f" opacity=".08"/>
+  <!-- plato y cuenco -->
+  <circle cx="350" cy="350" r="264" fill="#f1ead9"/>
+  <circle cx="350" cy="350" r="212" fill="#c9a35f"/>
+  <circle cx="350" cy="350" r="188" fill="#d97f42"/>
+  <!-- remolino de crema -->
+  <path d="M230 400 Q 250 300 350 290 Q 460 282 480 370" stroke="#e8a065" stroke-width="16" fill="none" stroke-linecap="round" opacity=".9"/>
+  <!-- virutas de jamón -->
+  <g fill="#8d3a47">
+    <path d="M300 340 Q 340 310 386 332 Q 350 352 316 358 Z"/>
+    <path d="M360 386 Q 404 366 440 392 Q 402 410 368 406 Z"/>
+    <path d="M266 420 Q 300 402 330 424 Q 298 440 272 436 Z"/>
+  </g>
+  <!-- huevo picado -->
+  <g fill="#f1ead9">
+    <circle cx="418" cy="300" r="20"/>
+    <circle cx="452" cy="326" r="16"/>
+    <circle cx="428" cy="348" r="13"/>
+  </g>
+  <circle cx="418" cy="300" r="9" fill="#c9a35f"/>
+  <!-- hilo de aceite -->
+  <path d="M292 470 Q 350 448 408 468" stroke="#c9a35f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="256" cy="470" r="8" fill="#c9a35f"/>
+</svg>

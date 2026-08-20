@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-label="Tortillitas de camarones doradas con limón">
+  <defs>
+    <linearGradient id="rp4Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#212819"/><stop offset="1" stop-color="#171c13"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#rp4Bg)"/>
+  <circle cx="350" cy="350" r="290" fill="#c9a35f" opacity=".08"/>
+  <!-- plato -->
+  <circle cx="350" cy="360" r="262" fill="#f1ead9"/>
+  <circle cx="350" cy="360" r="212" fill="none" stroke="#c9a35f" stroke-width="9" opacity=".8"/>
+  <!-- tortillitas: discos dorados irregulares -->
+  <path d="M226 306 Q 208 250 268 232 Q 330 214 366 250 Q 400 288 366 328 Q 322 366 268 352 Q 234 340 226 306 Z" fill="#c9a35f"/>
+  <path d="M240 300 Q 230 260 274 248 Q 322 236 348 262" stroke="#e0c78f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M356 420 Q 336 366 396 344 Q 462 326 496 366 Q 526 408 486 444 Q 440 478 392 460 Q 364 448 356 420 Z" fill="#c9a35f"/>
+  <path d="M372 414 Q 360 376 404 360 Q 452 348 478 376" stroke="#e0c78f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M212 452 Q 200 410 246 398 Q 296 386 320 416 Q 342 448 312 476 Q 276 502 238 486 Q 216 474 212 452 Z" fill="#b98f4e"/>
+  <!-- camarones: puntos -->
+  <g fill="#8d3a47">
+    <circle cx="286" cy="292" r="9"/><circle cx="322" cy="270" r="8"/><circle cx="264" cy="322" r="8"/>
+    <circle cx="416" cy="396" r="9"/><circle cx="452" cy="416" r="8"/><circle cx="430" cy="436" r="8"/>
+    <circle cx="258" cy="442" r="8"/><circle cx="284" cy="456" r="7"/>
+  </g>
+  <!-- limón -->
+  <g transform="rotate(-18 470 240)">
+    <path d="M400 240 A 74 74 0 0 1 540 240 Z" fill="#e8d9a8"/>
+    <path d="M400 240 A 74 74 0 0 1 540 240" fill="none" stroke="#c9a35f" stroke-width="14"/>
+    <g stroke="#c9a35f" stroke-width="7" fill="none">
+      <path d="M470 236 V 186"/><path d="M470 236 L 428 208"/><path d="M470 236 L 512 208"/>
+    </g>
+  </g>
+</svg>

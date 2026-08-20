@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="La Giralda de Sevilla entre viviendas">
+  <defs>
+    <linearGradient id="iBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1d36"/><stop offset="1" stop-color="#142a4c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#iBg)"/>
+  <circle cx="400" cy="250" r="196" fill="#b9924b" opacity=".12"/>
+  <!-- casas laterales -->
+  <g fill="#f8f7f4" opacity=".92">
+    <path d="M120 400 L 218 330 L 316 400 Z"/>
+    <rect x="146" y="396" width="144" height="140" rx="4"/>
+    <path d="M486 420 L 574 358 L 662 420 Z"/>
+    <rect x="510" y="416" width="128" height="120" rx="4"/>
+  </g>
+  <g fill="#142a4c">
+    <rect x="186" y="436" width="34" height="34" rx="3"/>
+    <rect x="234" y="436" width="34" height="34" rx="3"/>
+    <rect x="196" y="490" width="52" height="46" rx="3"/>
+    <rect x="546" y="452" width="30" height="30" rx="3"/>
+    <rect x="588" y="452" width="30" height="30" rx="3"/>
+    <rect x="556" y="502" width="46" height="34" rx="3"/>
+  </g>
+  <!-- Giralda -->
+  <g fill="#b9924b">
+    <rect x="352" y="196" width="98" height="340" rx="4"/>
+    <rect x="366" y="146" width="70" height="54" rx="4"/>
+    <rect x="379" y="112" width="44" height="38" rx="4"/>
+    <circle cx="401" cy="98" r="21"/>
+    <path d="M401 34 L 412 78 L 390 78 Z"/>
+    <rect x="396" y="26" width="10" height="18" rx="5"/>
+  </g>
+  <g fill="#0d1d36">
+    <rect x="372" y="236" width="26" height="46" rx="13"/>
+    <rect x="406" y="236" width="26" height="46" rx="13"/>
+    <rect x="372" y="316" width="26" height="46" rx="13"/>
+    <rect x="406" y="316" width="26" height="46" rx="13"/>
+    <rect x="372" y="396" width="26" height="46" rx="13"/>
+    <rect x="406" y="396" width="26" height="46" rx="13"/>
+  </g>
+  <rect x="80" y="530" width="640" height="12" rx="6" fill="#b9924b" opacity=".45"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Cocina después de la reforma: isla central y muebles hasta el techo">
+  <defs>
+    <linearGradient id="refKDesBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9a3412"/><stop offset="1" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#refKDesBg)"/>
+  <circle cx="760" cy="120" r="170" fill="#faf8f5" opacity=".12"/>
+  <rect x="0" y="440" width="900" height="160" fill="#221c17" opacity=".18"/>
+  <!-- ventana (mismo encuadre que el antes) -->
+  <rect x="620" y="70" width="200" height="170" rx="10" fill="#faf8f5"/>
+  <rect x="636" y="86" width="80" height="138" fill="#f59e0b" opacity=".5"/>
+  <rect x="724" y="86" width="80" height="138" fill="#f59e0b" opacity=".35"/>
+  <!-- columna y muebles hasta el techo -->
+  <rect x="60" y="0" width="130" height="440" rx="8" fill="#faf8f5"/>
+  <path d="M60 150 H190 M60 295 H190" fill="none" stroke="#c2410c" stroke-width="6" opacity=".35"/>
+  <rect x="168" y="60" width="8" height="56" rx="4" fill="#221c17"/>
+  <rect x="220" y="0" width="290" height="120" rx="8" fill="#faf8f5"/>
+  <path d="M365 0 V120" fill="none" stroke="#c2410c" stroke-width="6" opacity=".35"/>
+  <!-- campana y encimera -->
+  <path d="M310 120 h110 l26 80 h-162 z" fill="#f59e0b"/>
+  <rect x="220" y="308" width="290" height="20" rx="6" fill="#f59e0b"/>
+  <rect x="230" y="328" width="270" height="112" rx="8" fill="#faf8f5"/>
+  <rect x="280" y="352" width="56" height="8" rx="4" fill="#221c17"/>
+  <rect x="396" y="352" width="56" height="8" rx="4" fill="#221c17"/>
+  <!-- isla luminosa -->
+  <rect x="300" y="452" width="440" height="24" rx="8" fill="#f59e0b"/>
+  <rect x="320" y="476" width="400" height="96" rx="10" fill="#faf8f5"/>
+  <circle cx="400" cy="464" r="8" fill="#221c17"/>
+  <circle cx="460" cy="464" r="8" fill="#221c17"/>
+  <!-- lámparas colgantes sobre la isla -->
+  <path d="M560 0 V70 M660 0 V70" fill="none" stroke="#221c17" stroke-width="6"/>
+  <circle cx="560" cy="86" r="20" fill="#f59e0b"/>
+  <circle cx="660" cy="86" r="20" fill="#f59e0b"/>
+</svg>

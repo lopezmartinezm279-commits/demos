@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Perfil estilizado antes del tratamiento, con tono apagado">
+  <defs>
+    <linearGradient id="cliRAntBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5f5952"/><stop offset="1" stop-color="#7c746a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#cliRAntBg)"/>
+  <circle cx="460" cy="300" r="230" fill="#8f877c" opacity=".35"/>
+  <!-- perfil (mismo encuadre que el después) -->
+  <path d="M460 130 C410 142 384 180 382 224 L354 292 L384 302 C374 312 374 322 384 330 C372 338 372 350 386 356 C378 378 392 396 416 402 C442 408 454 424 452 448 L452 492 C392 502 352 520 344 540 L710 540 C704 514 662 494 600 486 L600 444 C628 400 640 344 636 268 C630 178 552 122 460 130 Z" fill="#e8e0d5"/>
+  <!-- pelo recogido -->
+  <path d="M460 130 C552 122 630 178 636 268 C640 330 632 380 612 420 C618 360 610 300 588 262 C560 214 516 190 460 196 C422 200 398 216 386 232 C392 178 418 140 460 130 Z" fill="#3b342e" opacity=".9"/>
+  <circle cx="642" cy="204" r="42" fill="#3b342e" opacity=".9"/>
+  <!-- ceja y ojo cerrado -->
+  <path d="M400 240 C416 232 434 232 448 240" fill="none" stroke="#3b342e" stroke-width="8" stroke-linecap="round"/>
+  <path d="M406 274 C418 282 434 282 446 276" fill="none" stroke="#3b342e" stroke-width="7" stroke-linecap="round"/>
+  <!-- marcas en la piel -->
+  <g fill="#a3968a">
+    <circle cx="500" cy="330" r="9"/>
+    <circle cx="532" cy="368" r="7"/>
+    <circle cx="492" cy="396" r="6"/>
+    <circle cx="548" cy="300" r="6"/>
+  </g>
+  <path d="M470 430 C486 438 506 440 522 434" fill="none" stroke="#a3968a" stroke-width="6" stroke-linecap="round"/>
+</svg>

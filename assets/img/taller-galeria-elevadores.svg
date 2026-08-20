@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-label="Dos coches sobre elevadores en la zona de trabajo del taller">
+  <defs>
+    <linearGradient id="tgeBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173d63"/><stop offset="1" stop-color="#23578c"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#tgeBg)"/>
+  <circle cx="560" cy="140" r="170" fill="#f6b900" opacity=".10"/>
+  <rect x="30" y="612" width="640" height="16" rx="8" fill="#101c2c"/>
+  <!-- elevador izquierdo, coche alto -->
+  <g fill="#f6b900">
+    <rect x="46" y="150" width="30" height="464" rx="10"/>
+    <rect x="290" y="150" width="30" height="464" rx="10"/>
+    <rect x="76" y="336" width="60" height="20" rx="10"/>
+    <rect x="230" y="336" width="60" height="20" rx="10"/>
+  </g>
+  <path d="M92 336 L92 300 Q92 286 108 282 L134 278 Q158 244 194 244 L232 244 Q262 244 280 280 Q274 284 274 298 L274 336 Z" fill="#eef2f7"/>
+  <path d="M148 276 Q166 254 194 254 L212 254 L212 276 Z" fill="#173d63"/>
+  <circle cx="140" cy="336" r="26" fill="#171b20"/><circle cx="140" cy="336" r="11" fill="#eef2f7"/>
+  <circle cx="234" cy="336" r="26" fill="#171b20"/><circle cx="234" cy="336" r="11" fill="#eef2f7"/>
+  <!-- elevador derecho, coche bajo -->
+  <g fill="#f6b900">
+    <rect x="384" y="150" width="30" height="464" rx="10"/>
+    <rect x="628" y="150" width="30" height="464" rx="10"/>
+    <rect x="414" y="520" width="60" height="20" rx="10"/>
+    <rect x="568" y="520" width="60" height="20" rx="10"/>
+  </g>
+  <path d="M430 520 L430 484 Q430 470 446 466 L472 462 Q496 428 532 428 L570 428 Q600 428 618 464 Q612 468 612 482 L612 520 Z" fill="#eef2f7"/>
+  <path d="M486 460 Q504 438 532 438 L550 438 L550 460 Z" fill="#173d63"/>
+  <circle cx="478" cy="520" r="26" fill="#171b20"/><circle cx="478" cy="520" r="11" fill="#eef2f7"/>
+  <circle cx="572" cy="520" r="26" fill="#171b20"/><circle cx="572" cy="520" r="11" fill="#eef2f7"/>
+</svg>

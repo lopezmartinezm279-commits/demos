@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Chalet con placas solares y batería de almacenamiento en la pared">
+  <defs>
+    <linearGradient id="schBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#116330"/><stop offset="1" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#schBg)"/>
+  <circle cx="680" cy="130" r="160" fill="#fbbf24" opacity=".16"/>
+  <circle cx="110" cy="120" r="110" fill="#0284c7" opacity=".14"/>
+  <!-- chalet de tejado plano a dos alturas -->
+  <rect x="120" y="260" width="330" height="280" rx="8" fill="#f6fafb"/>
+  <rect x="450" y="340" width="230" height="200" rx="8" fill="#e2ecf0"/>
+  <rect x="104" y="238" width="362" height="26" rx="10" fill="#101c2c"/>
+  <rect x="438" y="318" width="254" height="26" rx="10" fill="#101c2c"/>
+  <!-- placas inclinadas sobre la cubierta -->
+  <g fill="#0284c7">
+    <path d="M140 238 L162 194 L232 194 L210 238 Z"/>
+    <path d="M226 238 L248 194 L318 194 L296 238 Z"/>
+    <path d="M312 238 L334 194 L404 194 L382 238 Z"/>
+    <path d="M472 318 L494 274 L564 274 L542 318 Z"/>
+    <path d="M558 318 L580 274 L650 274 L628 318 Z"/>
+  </g>
+  <!-- puerta y ventana del chalet -->
+  <rect x="170" y="420" width="76" height="120" rx="8" fill="#15803d"/>
+  <rect x="286" y="316" width="120" height="86" rx="10" fill="#0284c7" opacity=".8"/>
+  <!-- batería en la pared -->
+  <g>
+    <rect x="500" y="382" width="120" height="140" rx="16" fill="#101c2c"/>
+    <rect x="516" y="486" width="88" height="16" rx="8" fill="#15803d"/>
+    <rect x="516" y="462" width="88" height="16" rx="8" fill="#15803d"/>
+    <rect x="516" y="438" width="88" height="16" rx="8" fill="#0284c7"/>
+    <path d="M566 394 L546 424 L560 424 L552 448 L576 416 L562 416 Z" fill="#fbbf24"/>
+  </g>
+  <!-- cable de la placa a la batería -->
+  <path d="M600 318 Q636 350 620 382" fill="none" stroke="#fbbf24" stroke-width="10" stroke-linecap="round"/>
+  <rect x="90" y="540" width="620" height="14" rx="7" fill="#0b3b22" opacity=".55"/>
+</svg>

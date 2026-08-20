@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Baño antes de la reforma: bañera antigua y azulejo pequeño">
+  <defs>
+    <linearGradient id="refBAntBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#565253"/><stop offset="1" stop-color="#7a7370"/>
+    </linearGradient>
+    <pattern id="refBAntAzu" width="42" height="42" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="38" height="38" fill="#aca39b" opacity=".35"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="600" fill="url(#refBAntBg)"/>
+  <rect x="0" y="180" width="900" height="260" fill="url(#refBAntAzu)"/>
+  <rect x="0" y="440" width="900" height="160" fill="#221c17" opacity=".26"/>
+  <!-- espejo viejo (misma posición que el después) -->
+  <rect x="130" y="110" width="170" height="200" rx="12" fill="#b8b0a8"/>
+  <rect x="150" y="130" width="130" height="160" rx="8" fill="#7a7370"/>
+  <!-- lavabo con pie -->
+  <ellipse cx="215" cy="368" rx="95" ry="26" fill="#cfc8c0"/>
+  <rect x="190" y="386" width="50" height="90" rx="10" fill="#b8b0a8"/>
+  <!-- bañera antigua con patas -->
+  <path d="M470 320 C470 300 500 290 540 290 L800 290 C830 290 850 305 850 330 L850 400 C850 430 820 448 780 448 L540 448 C500 448 470 430 470 400 Z" fill="#cfc8c0"/>
+  <rect x="470" y="310" width="380" height="16" rx="8" fill="#aca39b"/>
+  <path d="M520 448 L500 486 M800 448 L820 486" fill="none" stroke="#554a40" stroke-width="12" stroke-linecap="round"/>
+  <!-- grifo que gotea -->
+  <path d="M660 290 V 250 H 700" fill="none" stroke="#554a40" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="660" cy="306" r="6" fill="#8fa0a6"/>
+  <!-- grieta y humedad -->
+  <path d="M390 110 l16 36 -10 26 14 30" fill="none" stroke="#3f3831" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+  <ellipse cx="120" cy="500" rx="70" ry="20" fill="#3f3831" opacity=".3"/>
+</svg>

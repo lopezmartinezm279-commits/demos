@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Cabina de tratamiento elegante con camilla, lámpara de aro y planta">
+  <defs>
+    <linearGradient id="cliHeroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6f5330"/><stop offset="1" stop-color="#8d6b3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#cliHeroBg)"/>
+  <circle cx="1300" cy="160" r="260" fill="#fdfbf8" opacity=".10"/>
+  <circle cx="220" cy="780" r="220" fill="#c98d84" opacity=".12"/>
+  <rect x="0" y="660" width="1600" height="240" fill="#3b342e" opacity=".16"/>
+  <!-- lámpara de aro -->
+  <circle cx="1210" cy="300" r="120" fill="#fdfbf8" opacity=".10"/>
+  <circle cx="1210" cy="300" r="96" fill="none" stroke="#fdfbf8" stroke-width="24"/>
+  <circle cx="1210" cy="300" r="60" fill="none" stroke="#c98d84" stroke-width="8" opacity=".7"/>
+  <path d="M1210 396 V 660 M1150 660 L1210 560 L1270 660" fill="none" stroke="#3b342e" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- camilla -->
+  <path d="M560 470 L640 420 C650 414 664 416 670 426 L690 458 Z" fill="#fdfbf8"/>
+  <rect x="540" y="466" width="560" height="64" rx="28" fill="#fdfbf8"/>
+  <ellipse cx="620" cy="466" rx="56" ry="16" fill="#c98d84"/>
+  <path d="M600 530 V 660 M1040 530 V 660 M560 596 H 1080" fill="none" stroke="#3b342e" stroke-width="16" stroke-linecap="round"/>
+  <!-- taburete -->
+  <ellipse cx="1210" cy="560" rx="46" ry="14" fill="#c98d84"/>
+  <!-- planta grande -->
+  <rect x="300" y="530" width="110" height="130" rx="14" fill="#3b342e" opacity=".85"/>
+  <path d="M355 530 C300 430 300 360 355 300 C410 360 410 430 355 530 Z" fill="#fdfbf8" opacity=".85"/>
+  <path d="M355 530 C290 470 250 440 235 375 C310 372 340 420 355 530 Z" fill="#c98d84" opacity=".8"/>
+  <path d="M355 530 C420 470 460 440 475 375 C400 372 370 420 355 530 Z" fill="#c98d84" opacity=".8"/>
+  <!-- balda con frascos -->
+  <path d="M120 250 H 420" fill="none" stroke="#fdfbf8" stroke-width="10" stroke-linecap="round"/>
+  <rect x="160" y="190" width="36" height="60" rx="10" fill="#fdfbf8"/>
+  <rect x="220" y="200" width="30" height="50" rx="8" fill="#c98d84"/>
+  <rect x="274" y="180" width="34" height="70" rx="10" fill="#fdfbf8" opacity=".8"/>
+  <rect x="332" y="204" width="28" height="46" rx="8" fill="#c98d84" opacity=".8"/>
+  <!-- alfombra -->
+  <ellipse cx="820" cy="760" rx="380" ry="56" fill="#fdfbf8" opacity=".12"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Vivienda unifamiliar con placas solares en el tejado">
+  <defs>
+    <linearGradient id="sviBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#116330"/><stop offset="1" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sviBg)"/>
+  <circle cx="140" cy="480" r="180" fill="#0284c7" opacity=".14"/>
+  <!-- sol -->
+  <g transform="translate(650,120)">
+    <g stroke="#fbbf24" stroke-width="12" stroke-linecap="round" fill="none">
+      <path d="M0 -92 V -68"/><path d="M0 68 V 92"/>
+      <path d="M-92 0 H -68"/><path d="M68 0 H 92"/>
+      <path d="M-65 -65 l17 17"/><path d="M48 48 l17 17"/>
+      <path d="M65 -65 l-17 17"/><path d="M-48 48 l-17 17"/>
+    </g>
+    <circle r="52" fill="#fbbf24"/>
+  </g>
+  <!-- casa -->
+  <rect x="200" y="330" width="400" height="210" rx="8" fill="#f6fafb"/>
+  <path d="M170 340 L400 190 L630 340 Z" fill="#101c2c"/>
+  <!-- placas sobre el tejado -->
+  <g fill="#0284c7">
+    <path d="M282 306 L330 274 L394 274 L346 306 Z"/>
+    <path d="M358 306 L406 274 L470 274 L422 306 Z"/>
+    <path d="M434 306 L482 274 L546 274 L498 306 Z"/>
+    <path d="M320 262 L360 236 L420 236 L380 262 Z"/>
+    <path d="M392 262 L432 236 L492 236 L452 262 Z"/>
+  </g>
+  <!-- puerta y ventana -->
+  <rect x="366" y="420" width="68" height="120" rx="8" fill="#15803d"/>
+  <circle cx="420" cy="482" r="6" fill="#f6fafb"/>
+  <rect x="246" y="396" width="80" height="72" rx="10" fill="#0284c7" opacity=".8"/>
+  <rect x="474" y="396" width="80" height="72" rx="10" fill="#0284c7" opacity=".8"/>
+  <!-- suelo y arbusto -->
+  <rect x="120" y="540" width="560" height="14" rx="7" fill="#0b3b22" opacity=".55"/>
+  <circle cx="160" cy="512" r="30" fill="#f6fafb" opacity=".85"/>
+  <circle cx="646" cy="510" r="34" fill="#f6fafb" opacity=".85"/>
+</svg>

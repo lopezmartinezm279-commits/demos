@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Nave del taller con un coche sobre el elevador bajo la luz cenital">
+  <defs>
+    <linearGradient id="tmhBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173d63"/><stop offset="1" stop-color="#23578c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#tmhBg)"/>
+  <circle cx="1330" cy="190" r="260" fill="#f6b900" opacity=".10"/>
+  <circle cx="230" cy="700" r="210" fill="#eef2f7" opacity=".08"/>
+  <!-- luz cenital -->
+  <rect x="726" y="46" width="148" height="30" rx="12" fill="#eef2f7"/>
+  <path d="M756 76 L580 812 L1020 812 L844 76 Z" fill="#f6b900" opacity=".10"/>
+  <!-- suelo -->
+  <rect x="110" y="800" width="1380" height="20" rx="10" fill="#101c2c"/>
+  <!-- elevador de dos columnas -->
+  <g fill="#f6b900">
+    <rect x="436" y="290" width="48" height="512" rx="12"/>
+    <rect x="1116" y="290" width="48" height="512" rx="12"/>
+    <rect x="484" y="566" width="150" height="28" rx="14"/>
+    <rect x="966" y="566" width="150" height="28" rx="14"/>
+  </g>
+  <!-- coche elevado -->
+  <path d="M548 566 L548 512 Q548 490 574 486 L646 476 Q706 418 786 418 L906 418 Q986 418 1026 478 L1042 482 Q1058 486 1058 508 L1058 566 Z" fill="#eef2f7"/>
+  <path d="M676 470 Q718 434 782 434 L826 434 L826 470 Z" fill="#173d63"/>
+  <rect x="844" y="434" width="140" height="36" rx="8" fill="#173d63"/>
+  <circle cx="656" cy="566" r="46" fill="#171b20"/><circle cx="656" cy="566" r="20" fill="#eef2f7"/>
+  <circle cx="952" cy="566" r="46" fill="#171b20"/><circle cx="952" cy="566" r="20" fill="#eef2f7"/>
+  <!-- panel de herramientas -->
+  <rect x="150" y="250" width="200" height="240" rx="16" fill="#eef2f7" opacity=".14"/>
+  <g transform="translate(214,316) rotate(40)">
+    <rect x="10" y="-11" width="112" height="22" rx="11" fill="#eef2f7"/>
+    <circle cx="10" cy="0" r="28" fill="#eef2f7"/>
+    <circle cx="10" cy="0" r="14" fill="#23578c"/>
+  </g>
+  <g transform="translate(292,352) rotate(-35)">
+    <rect x="-10" y="-52" width="20" height="76" rx="9" fill="#f6b900"/>
+    <rect x="-16" y="24" width="32" height="66" rx="14" fill="#eef2f7"/>
+  </g>
+  <!-- carro de herramientas -->
+  <g>
+    <rect x="1262" y="628" width="180" height="150" rx="14" fill="#f6b900"/>
+    <rect x="1280" y="652" width="144" height="18" rx="9" fill="#173d63"/>
+    <rect x="1280" y="686" width="144" height="18" rx="9" fill="#173d63"/>
+    <rect x="1280" y="720" width="144" height="18" rx="9" fill="#173d63"/>
+    <circle cx="1296" cy="788" r="16" fill="#171b20"/>
+    <circle cx="1408" cy="788" r="16" fill="#171b20"/>
+  </g>
+</svg>

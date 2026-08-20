@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Rodillo pintando una pared de ladrillo">
+  <defs>
+    <linearGradient id="rBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9a3412"/><stop offset="1" stop-color="#c2410c"/>
+    </linearGradient>
+    <pattern id="rBrick" width="130" height="92" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="120" height="38" rx="3" fill="#ffffff" opacity=".10"/>
+      <rect x="65" y="46" width="120" height="38" rx="3" fill="#ffffff" opacity=".10"/>
+      <rect x="-65" y="46" width="120" height="38" rx="3" fill="#ffffff" opacity=".10"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#rBg)"/>
+  <rect width="800" height="600" fill="url(#rBrick)"/>
+  <!-- franja recien pintada -->
+  <rect x="276" y="0" width="248" height="200" fill="#f59e0b"/>
+  <rect x="276" y="188" width="248" height="14" fill="#000000" opacity=".12"/>
+  <!-- cabezal del rodillo -->
+  <rect x="268" y="200" width="264" height="88" rx="14" fill="#faf8f5"/>
+  <rect x="268" y="266" width="264" height="22" rx="8" fill="#221c17" opacity=".18"/>
+  <!-- brazo -->
+  <path d="M400 288 V 344 H 486" fill="none" stroke="#faf8f5" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- mango -->
+  <rect x="466" y="336" width="40" height="184" rx="20" fill="#221c17"/>
+  <rect x="476" y="352" width="9" height="152" rx="5" fill="#ffffff" opacity=".16"/>
+</svg>

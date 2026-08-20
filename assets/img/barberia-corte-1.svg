@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-label="Máquina de cortar el pelo y peine">
+  <defs>
+    <linearGradient id="bc1Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1b1e"/><stop offset="1" stop-color="#0e0e0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#bc1Bg)"/>
+  <circle cx="350" cy="350" r="270" fill="#c8963e" opacity=".08"/>
+  <!-- máquina -->
+  <g transform="rotate(-14 260 360)">
+    <rect x="180" y="220" width="160" height="330" rx="52" fill="#f0e9dc"/>
+    <rect x="196" y="150" width="128" height="80" rx="14" fill="#c8963e"/>
+    <g stroke="#0e0e0f" stroke-width="10" fill="none">
+      <path d="M214 150 V 118"/><path d="M242 150 V 118"/>
+      <path d="M270 150 V 118"/><path d="M298 150 V 118"/>
+    </g>
+    <rect x="238" y="290" width="44" height="110" rx="22" fill="#c8963e"/>
+    <circle cx="260" cy="490" r="18" fill="#b46a3c"/>
+  </g>
+  <!-- peine -->
+  <g transform="rotate(24 470 380)">
+    <rect x="420" y="170" width="88" height="420" rx="18" fill="#c8963e"/>
+    <g stroke="#0e0e0f" stroke-width="12" fill="none">
+      <path d="M420 240 H 478"/><path d="M420 288 H 478"/>
+      <path d="M420 336 H 478"/><path d="M420 384 H 478"/>
+      <path d="M420 432 H 478"/><path d="M420 480 H 478"/>
+      <path d="M420 528 H 478"/>
+    </g>
+  </g>
+</svg>

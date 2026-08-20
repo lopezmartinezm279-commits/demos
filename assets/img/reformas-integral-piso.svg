@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Salón tras reforma integral con sillón, cuadro y lámpara colgante">
+  <defs>
+    <linearGradient id="refIntBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9a3412"/><stop offset="1" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#refIntBg)"/>
+  <circle cx="660" cy="100" r="160" fill="#faf8f5" opacity=".12"/>
+  <circle cx="90" cy="540" r="130" fill="#f59e0b" opacity=".10"/>
+  <!-- suelo -->
+  <rect x="0" y="440" width="800" height="160" fill="#221c17" opacity=".18"/>
+  <!-- cuadro -->
+  <rect x="110" y="110" width="220" height="170" rx="10" fill="#faf8f5"/>
+  <path d="M130 250 L200 170 L250 220 L310 150 L310 260 L130 260 Z" fill="#f59e0b"/>
+  <circle cx="170" cy="150" r="18" fill="#c2410c"/>
+  <!-- lámpara colgante -->
+  <path d="M560 0 V 130" fill="none" stroke="#221c17" stroke-width="8"/>
+  <path d="M500 190 a60 60 0 0 1 120 0 z" fill="#f59e0b"/>
+  <circle cx="560" cy="204" r="12" fill="#faf8f5"/>
+  <!-- sillón -->
+  <rect x="440" y="280" width="240" height="130" rx="24" fill="#faf8f5"/>
+  <rect x="420" y="360" width="280" height="90" rx="24" fill="#faf8f5"/>
+  <rect x="470" y="310" width="90" height="76" rx="12" fill="#f59e0b"/>
+  <rect x="446" y="450" width="26" height="36" rx="7" fill="#221c17"/>
+  <rect x="648" y="450" width="26" height="36" rx="7" fill="#221c17"/>
+  <!-- mesa auxiliar con planta -->
+  <ellipse cx="220" cy="380" rx="90" ry="16" fill="#faf8f5"/>
+  <path d="M220 392 V 480" fill="none" stroke="#faf8f5" stroke-width="12" stroke-linecap="round"/>
+  <rect x="192" y="316" width="56" height="52" rx="8" fill="#221c17" opacity=".85"/>
+  <path d="M220 316 C196 276 196 246 220 220 C244 246 244 276 220 316 Z" fill="#f59e0b" opacity=".9"/>
+  <!-- alfombra -->
+  <ellipse cx="440" cy="520" rx="260" ry="42" fill="#faf8f5" opacity=".14"/>
+</svg>

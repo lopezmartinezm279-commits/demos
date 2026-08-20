@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Baño después de la reforma: plato de ducha, mampara y mueble suspendido">
+  <defs>
+    <linearGradient id="refBDesBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9a3412"/><stop offset="1" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#refBDesBg)"/>
+  <circle cx="150" cy="110" r="160" fill="#faf8f5" opacity=".12"/>
+  <rect x="0" y="440" width="900" height="160" fill="#221c17" opacity=".18"/>
+  <!-- espejo redondo (misma posición que el viejo) -->
+  <circle cx="215" cy="200" r="95" fill="#faf8f5"/>
+  <circle cx="215" cy="200" r="74" fill="#f59e0b" opacity=".3"/>
+  <!-- mueble suspendido -->
+  <rect x="100" y="330" width="230" height="86" rx="14" fill="#faf8f5"/>
+  <ellipse cx="215" cy="330" rx="62" ry="14" fill="#f59e0b"/>
+  <rect x="140" y="366" width="64" height="10" rx="5" fill="#221c17"/>
+  <rect x="226" y="366" width="64" height="10" rx="5" fill="#221c17"/>
+  <!-- ducha -->
+  <path d="M690 60 V 100" fill="none" stroke="#faf8f5" stroke-width="12" stroke-linecap="round"/>
+  <ellipse cx="690" cy="112" rx="72" ry="16" fill="#faf8f5"/>
+  <g fill="none" stroke="#faf8f5" stroke-width="8" stroke-linecap="round" opacity=".6">
+    <path d="M650 152 V 194"/><path d="M690 152 V 204"/><path d="M730 152 V 194"/>
+  </g>
+  <!-- mampara -->
+  <rect x="540" y="80" width="14" height="380" rx="7" fill="#faf8f5"/>
+  <rect x="554" y="100" width="140" height="360" fill="#faf8f5" opacity=".14"/>
+  <path d="M554 100 H694" fill="none" stroke="#faf8f5" stroke-width="8" stroke-linecap="round"/>
+  <!-- plato de ducha -->
+  <rect x="540" y="444" width="320" height="32" rx="12" fill="#faf8f5"/>
+  <rect x="670" y="454" width="60" height="10" rx="5" fill="#221c17" opacity=".35"/>
+  <!-- toalla y planta -->
+  <rect x="400" y="200" width="66" height="112" rx="10" fill="#f59e0b"/>
+  <path d="M400 238 H466" fill="none" stroke="#9a3412" stroke-width="8" opacity=".5"/>
+  <rect x="404" y="400" width="56" height="52" rx="8" fill="#221c17" opacity=".85"/>
+  <path d="M432 400 C410 364 410 336 432 312 C454 336 454 364 432 400 Z" fill="#f59e0b" opacity=".9"/>
+</svg>

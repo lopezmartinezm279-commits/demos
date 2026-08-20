@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-label="Cabina de pintura con pistola pulverizando un coche">
+  <defs>
+    <linearGradient id="tgcBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173d63"/><stop offset="1" stop-color="#23578c"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#tgcBg)"/>
+  <!-- cabina: pared con luminarias -->
+  <rect x="60" y="60" width="580" height="480" rx="24" fill="#eef2f7" opacity=".10"/>
+  <g fill="#eef2f7" opacity=".8">
+    <rect x="110" y="96" width="150" height="18" rx="9"/>
+    <rect x="440" y="96" width="150" height="18" rx="9"/>
+  </g>
+  <rect x="40" y="586" width="620" height="16" rx="8" fill="#101c2c"/>
+  <!-- pistola de pintura -->
+  <g transform="translate(140,210)">
+    <rect x="0" y="-16" width="96" height="34" rx="14" fill="#eef2f7"/>
+    <rect x="8" y="14" width="34" height="70" rx="12" fill="#eef2f7"/>
+    <rect x="46" y="-70" width="30" height="58" rx="12" fill="#f6b900"/>
+    <rect x="96" y="-10" width="24" height="22" rx="8" fill="#f6b900"/>
+  </g>
+  <!-- pulverizado -->
+  <g fill="#f6b900">
+    <circle cx="300" cy="192" r="12" opacity=".55"/>
+    <circle cx="346" cy="216" r="10" opacity=".45"/>
+    <circle cx="320" cy="252" r="11" opacity=".5"/>
+    <circle cx="386" cy="248" r="12" opacity=".4"/>
+    <circle cx="360" cy="290" r="10" opacity=".45"/>
+    <circle cx="416" cy="292" r="11" opacity=".35"/>
+  </g>
+  <!-- coche a medio pintar -->
+  <path d="M120 586 L120 508 Q120 484 148 480 L206 472 Q252 404 330 404 L426 404 Q506 404 546 474 L568 478 Q590 482 590 508 L590 586 Z" fill="#eef2f7"/>
+  <path d="M355 404 L426 404 Q506 404 546 474 L568 478 Q590 482 590 508 L590 586 L355 586 Z" fill="#f6b900"/>
+  <path d="M238 468 Q276 418 330 418 L348 418 L348 468 Z" fill="#173d63"/>
+  <path d="M368 418 L420 418 Q470 418 502 468 L368 468 Z" fill="#173d63"/>
+  <circle cx="228" cy="586" r="42" fill="#171b20"/><circle cx="228" cy="586" r="18" fill="#eef2f7"/>
+  <circle cx="482" cy="586" r="42" fill="#171b20"/><circle cx="482" cy="586" r="18" fill="#eef2f7"/>
+</svg>

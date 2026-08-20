@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Skyline de Sevilla al atardecer con la Giralda y tejados en dorado sobre azul marino">
+  <defs>
+    <linearGradient id="heroSevBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1d36"/><stop offset="1" stop-color="#142a4c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#heroSevBg)"/>
+  <circle cx="800" cy="520" r="330" fill="#b9924b" opacity=".14"/>
+  <circle cx="800" cy="560" r="200" fill="#b9924b" opacity=".12"/>
+  <circle cx="800" cy="588" r="112" fill="#b9924b" opacity=".55"/>
+  <!-- skyline lejano -->
+  <g fill="#f8f7f4" opacity=".18">
+    <rect x="60" y="560" width="120" height="180"/>
+    <rect x="230" y="600" width="90" height="140"/>
+    <rect x="1180" y="580" width="110" height="160"/>
+    <rect x="1350" y="545" width="130" height="195"/>
+    <path d="M1290 600 L 1320 560 L 1350 600 Z"/>
+    <path d="M180 560 L 205 520 L 230 560 Z"/>
+  </g>
+  <!-- tejados en primer plano -->
+  <g fill="#f8f7f4" opacity=".92">
+    <path d="M40 700 L 150 630 L 260 700 Z"/>
+    <rect x="70" y="696" width="180" height="130" rx="4"/>
+    <rect x="300" y="640" width="170" height="186" rx="4"/>
+    <path d="M290 646 L 385 590 L 480 646 Z"/>
+    <rect x="510" y="690" width="150" height="136" rx="4"/>
+    <rect x="960" y="676" width="160" height="150" rx="4"/>
+    <path d="M950 682 L 1040 622 L 1130 682 Z"/>
+    <rect x="1160" y="646" width="180" height="180" rx="4"/>
+    <path d="M1360 706 L 1465 640 L 1570 706 Z"/>
+    <rect x="1390" y="702" width="150" height="124" rx="4"/>
+  </g>
+  <g fill="#142a4c">
+    <rect x="105" y="726" width="40" height="40" rx="3"/><rect x="175" y="726" width="40" height="40" rx="3"/>
+    <rect x="330" y="676" width="42" height="42" rx="3"/><rect x="398" y="676" width="42" height="42" rx="3"/>
+    <rect x="330" y="746" width="42" height="42" rx="3"/><rect x="398" y="746" width="42" height="42" rx="3"/>
+    <rect x="540" y="718" width="38" height="38" rx="3"/><rect x="602" y="718" width="38" height="38" rx="3"/>
+    <rect x="992" y="706" width="38" height="38" rx="3"/><rect x="1052" y="706" width="38" height="38" rx="3"/>
+    <rect x="1192" y="678" width="42" height="42" rx="3"/><rect x="1262" y="678" width="42" height="42" rx="3"/>
+    <rect x="1192" y="748" width="42" height="42" rx="3"/><rect x="1262" y="748" width="42" height="42" rx="3"/>
+    <rect x="1424" y="732" width="36" height="36" rx="3"/><rect x="1482" y="732" width="36" height="36" rx="3"/>
+  </g>
+  <!-- Giralda -->
+  <g fill="#b9924b">
+    <rect x="742" y="330" width="116" height="496" rx="5"/>
+    <rect x="758" y="272" width="84" height="62" rx="5"/>
+    <rect x="774" y="230" width="52" height="46" rx="5"/>
+    <circle cx="800" cy="212" r="25"/>
+    <path d="M800 132 L 813 186 L 787 186 Z"/>
+    <rect x="794" y="122" width="12" height="22" rx="6"/>
+  </g>
+  <g fill="#0d1d36">
+    <rect x="766" y="380" width="30" height="56" rx="15"/><rect x="804" y="380" width="30" height="56" rx="15"/>
+    <rect x="766" y="480" width="30" height="56" rx="15"/><rect x="804" y="480" width="30" height="56" rx="15"/>
+    <rect x="766" y="580" width="30" height="56" rx="15"/><rect x="804" y="580" width="30" height="56" rx="15"/>
+    <rect x="766" y="680" width="30" height="56" rx="15"/><rect x="804" y="680" width="30" height="56" rx="15"/>
+  </g>
+  <rect x="0" y="826" width="1600" height="74" fill="#0d1d36"/>
+  <rect x="80" y="820" width="1440" height="12" rx="6" fill="#b9924b" opacity=".5"/>
+</svg>

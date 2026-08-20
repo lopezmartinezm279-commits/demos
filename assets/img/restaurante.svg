@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Plato con cubiertos y copa de vino">
+  <defs>
+    <linearGradient id="tvBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#212819"/><stop offset="1" stop-color="#171c13"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#tvBg)"/>
+  <circle cx="400" cy="300" r="238" fill="#c9a35f" opacity=".08"/>
+  <!-- plato -->
+  <circle cx="400" cy="300" r="168" fill="#f1ead9"/>
+  <circle cx="400" cy="300" r="126" fill="none" stroke="#c9a35f" stroke-width="7" opacity=".8"/>
+  <circle cx="400" cy="300" r="74" fill="#8d3a47" opacity=".85"/>
+  <!-- tenedor -->
+  <g fill="#c9a35f" transform="translate(168,150)">
+    <rect x="26" y="0" width="13" height="86" rx="6"/>
+    <rect x="52" y="0" width="13" height="86" rx="6"/>
+    <rect x="78" y="0" width="13" height="86" rx="6"/>
+    <path d="M20 80 H 97 V 108 A 38 38 0 0 1 20 108 Z"/>
+    <rect x="49" y="132" width="19" height="188" rx="9"/>
+  </g>
+  <!-- cuchillo -->
+  <g fill="#c9a35f" transform="translate(586,150)">
+    <path d="M18 4 C 52 4, 66 62, 60 128 L 18 128 Z"/>
+    <rect x="20" y="126" width="19" height="194" rx="9"/>
+  </g>
+  <!-- copa -->
+  <g fill="#c9a35f" transform="translate(400,452)">
+    <path d="M-52 0 H 52 A 52 58 0 0 1 -52 0 Z"/>
+    <rect x="-6" y="56" width="12" height="52" rx="6"/>
+    <rect x="-40" y="104" width="80" height="13" rx="6"/>
+  </g>
+</svg>

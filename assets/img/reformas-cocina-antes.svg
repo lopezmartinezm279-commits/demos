@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Cocina antes de la reforma: muebles bajos desparejados y azulejo pequeño">
+  <defs>
+    <linearGradient id="refKAntBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5c5049"/><stop offset="1" stop-color="#7d6c60"/>
+    </linearGradient>
+    <pattern id="refKAntAzu" width="46" height="46" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="42" height="42" fill="#b9aa99" opacity=".35"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="600" fill="url(#refKAntBg)"/>
+  <!-- azulejo pequeño en media pared -->
+  <rect x="0" y="210" width="900" height="230" fill="url(#refKAntAzu)"/>
+  <rect x="0" y="440" width="900" height="160" fill="#221c17" opacity=".26"/>
+  <!-- ventana (mismo encuadre que el después) -->
+  <rect x="620" y="70" width="200" height="170" rx="10" fill="#cfc6ba"/>
+  <path d="M720 70 V240 M620 155 H820" fill="none" stroke="#7d6c60" stroke-width="8"/>
+  <!-- muebles bajos desparejados -->
+  <rect x="60" y="320" width="150" height="120" rx="6" fill="#a3937f"/>
+  <rect x="220" y="340" width="130" height="100" rx="6" fill="#8d7c6b"/>
+  <rect x="360" y="326" width="150" height="114" rx="6" fill="#b0a08c"/>
+  <rect x="60" y="308" width="450" height="16" fill="#948474"/>
+  <rect x="110" y="352" width="44" height="8" rx="4" fill="#554a40"/>
+  <rect x="266" y="368" width="44" height="8" rx="4" fill="#554a40"/>
+  <rect x="412" y="356" width="44" height="8" rx="4" fill="#554a40"/>
+  <!-- cocina vieja con fogones -->
+  <rect x="540" y="330" width="140" height="110" rx="8" fill="#cfc6ba"/>
+  <circle cx="575" cy="352" r="13" fill="#554a40"/>
+  <circle cx="645" cy="352" r="13" fill="#554a40"/>
+  <rect x="560" y="380" width="100" height="44" rx="6" fill="#554a40" opacity=".55"/>
+  <!-- balda torcida y grieta -->
+  <rect x="90" y="180" width="200" height="14" rx="6" fill="#a3937f" transform="rotate(-4 190 187)"/>
+  <path d="M470 90 l18 34 -12 26 16 30" fill="none" stroke="#3f3831" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+  <!-- mancha de humedad -->
+  <ellipse cx="795" cy="480" rx="70" ry="22" fill="#3f3831" opacity=".3"/>
+</svg>

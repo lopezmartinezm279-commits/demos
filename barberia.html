@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barbería Alfalfa — Cortes clásicos y afeitado a navaja en Sevilla</title>
+<meta name="description" content="Barbería clásica en la Alfalfa, Sevilla. Cortes, degradados, afeitado a navaja con toalla caliente y ritual completo. Reserva tu cita por WhatsApp en 10 segundos.">
+<link rel="icon" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/themes.css">
+<script src="assets/js/app.js" defer></script>
+</head>
+<body class="theme-barberia" data-sector="barberia" data-wa="Hola, quiero reservar cita en la barbería">
+
+<div id="demobar"></div>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="logo" href="#top">Barbería Alfalfa</a>
+    <button class="nav-toggle" data-nav-toggle aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" data-nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#ritual">El ritual</a>
+      <a href="#galeria">Cortes</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#cita">Reservar</a>
+    </nav>
+    <div class="site-header__cta"><a class="btn btn--primary" href="#cita">Reservar cita</a></div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- 1. HERO -->
+  <section class="hero hero--full">
+    <div class="hero__bg">
+      <img src="assets/img/barberia-hero-sillon.svg" width="1600" height="900" alt="Sillón clásico de barbero en Barbería Alfalfa, Sevilla" fetchpriority="high">
+    </div>
+    <div class="container">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Barbería clásica · Plaza de la Alfalfa, Sevilla</p>
+        <h1 class="hero__title">Aquí no se corta el pelo. Se sale nuevo.</h1>
+        <p class="hero__lead">Navaja, tijera y máquina en manos de barberos de oficio. Toalla caliente, cerveza fría y cero prisas. En el corazón de la Alfalfa desde 2012.</p>
+        <div class="hero__actions">
+          <a class="btn btn--wa btn--lg" href="https://wa.me/34692203981?text=Hola%2C%20quiero%20reservar%20cita%20en%20la%20barber%C3%ADa">Reservar por WhatsApp</a>
+          <a class="btn btn--ghost btn--lg" href="#servicios">Ver precios</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__num">12</span>
+            <span class="stat__label">Años en la Alfalfa</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">40.000+</span>
+            <span class="stat__label">Cortes hechos</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">4,9★</span>
+            <span class="stat__label">En Google (310 reseñas)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. SERVICIOS Y PRECIOS -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Servicios y precios</p>
+        <h2>Lo que hacemos, sin letra pequeña</h2>
+        <p class="lead">Precio cerrado, se paga lo que pone aquí. Toalla caliente y acabado con navaja incluidos en todos los servicios de barba.</p>
+      </div>
+      <div class="grid grid--4 reveal">
+        <div class="price-card">
+          <p class="price-card__from">Corte de pelo</p>
+          <p class="price-card__price">15 €</p>
+          <p>Tijera, máquina o degradado. Lavado y peinado con producto incluidos. 30 min.</p>
+        </div>
+        <div class="price-card price-card--featured">
+          <p class="price-card__from">Corte + barba</p>
+          <p class="price-card__price">24 €</p>
+          <p>El combo de la casa. Corte completo y barba perfilada a navaja con toalla caliente. 50 min.</p>
+        </div>
+        <div class="price-card">
+          <p class="price-card__from">Arreglo de barba</p>
+          <p class="price-card__price">12 €</p>
+          <p>Perfilado a navaja, vaciado y aceite de barba para rematar. 25 min.</p>
+        </div>
+        <div class="price-card">
+          <p class="price-card__from">Afeitado clásico a navaja</p>
+          <p class="price-card__price">18 €</p>
+          <p>Dos pasadas, toalla caliente antes y bálsamo frío después. Como en las películas. 35 min.</p>
+        </div>
+        <div class="price-card">
+          <p class="price-card__from">Corte infantil</p>
+          <p class="price-card__price">12 €</p>
+          <p>Hasta 12 años. Paciencia infinita y piruleta al terminar. 25 min.</p>
+        </div>
+        <div class="price-card">
+          <p class="price-card__from">Rapado</p>
+          <p class="price-card__price">12 €</p>
+          <p>A máquina al número que quieras, con repaso de contornos a navaja. 20 min.</p>
+        </div>
+        <div class="price-card">
+          <p class="price-card__from">Tinte / matiz de canas</p>
+          <p class="price-card__price">25 €</p>
+          <p>Camuflaje de canas natural, sin efecto casco. Corte no incluido. 40 min.</p>
+        </div>
+        <div class="price-card price-card--featured">
+          <p class="price-card__from">Ritual completo</p>
+          <p class="price-card__price">30 €</p>
+          <p>Corte + barba + afeitado a navaja + masaje capilar + bebida. Una hora para ti solo.</p>
+        </div>
+      </div>
+      <p class="form__note reveal">Sin cita se atiende por orden de llegada, solo entre semana. Los sábados, únicamente con cita.</p>
+    </div>
+  </section>
+
+  <!-- 3. EL RITUAL -->
+  <section class="section section--alt" id="ritual">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">La experiencia</p>
+        <h2>El ritual Alfalfa</h2>
+        <p class="lead">Esto no es una peluquería exprés. Cada servicio sigue el mismo ritual de barbería clásica, sin mirar el reloj.</p>
+      </div>
+      <ol class="steps reveal">
+        <li class="step">
+          <h3>Bebida de bienvenida</h3>
+          <p>Te sientas, te quitas la prisa de encima y eliges: cerveza bien fría o café de la cafetera italiana. Invita la casa.</p>
+        </li>
+        <li class="step">
+          <h3>Toalla caliente</h3>
+          <p>Dos minutos de toalla caliente con esencia de eucalipto para abrir el poro y ablandar la barba antes de tocar la navaja.</p>
+        </li>
+        <li class="step">
+          <h3>Navaja, tijera y máquina</h3>
+          <p>El barbero trabaja tu corte o tu afeitado a mano, contorno a navaja incluido. Aquí no hay dos cabezas iguales.</p>
+        </li>
+        <li class="step">
+          <h3>Masaje capilar y acabado</h3>
+          <p>Lavado con masaje capilar, bálsamo frío y peinado con el producto que le va a tu pelo. Sales oliendo a barbería de verdad.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 4. GALERÍA -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Trabajos reales</p>
+        <h2>Cortes que salen de aquí</h2>
+        <p class="lead">Sin filtros y sin modelos: clientes de la casa recién levantados del sillón. Toca cualquier foto para ampliarla.</p>
+      </div>
+      <div class="gallery reveal" data-lightbox>
+        <img src="assets/img/barberia-corte-1.svg" width="700" height="700" alt="Degradado bajo con línea marcada a navaja" loading="lazy">
+        <img src="assets/img/barberia-corte-2.svg" width="700" height="700" alt="Corte clásico con raya al lado y acabado con pomada" loading="lazy">
+        <img src="assets/img/barberia-corte-3.svg" width="700" height="700" alt="Barba perfilada a navaja con contornos limpios" loading="lazy">
+        <img src="assets/img/barberia-corte-4.svg" width="700" height="700" alt="Degradado medio con textura arriba" loading="lazy">
+        <img src="assets/img/barberia-corte-5.svg" width="700" height="700" alt="Afeitado clásico a navaja con toalla caliente" loading="lazy">
+        <img src="assets/img/barberia-corte-6.svg" width="700" height="700" alt="Corte infantil con degradado suave" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. EQUIPO -->
+  <section class="section section--alt" id="equipo">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">El equipo</p>
+        <h2>Tres barberos, cero postureo</h2>
+        <p class="lead">Al reservar eliges con quién te cortas. Si te da igual, te asignamos al primero libre y acertarás igual.</p>
+      </div>
+      <div class="grid grid--3 reveal">
+        <div class="card">
+          <img src="https://picsum.photos/seed/barberia-barbero-sergio/500/600" width="500" height="600" alt="Sergio Morales, barbero especialista en degradados" loading="lazy">
+          <div class="card__body">
+            <h3>Sergio Morales · «El Fino»</h3>
+            <p>Fundador. 20 años de oficio, empezó barriendo pelo en la barbería de su tío en la Macarena. Especialista en degradados y líneas a navaja.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/seed/barberia-barbero-rafa/500/600" width="500" height="600" alt="Rafa Camacho, barbero especialista en afeitado clásico" loading="lazy">
+          <div class="card__body">
+            <h3>Rafa Camacho · «Navaja»</h3>
+            <p>El del afeitado clásico. Formado en Cádiz, afila sus propias navajas cada mañana. Si llevas barba de tres meses, es tu hombre.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/seed/barberia-barbero-dani/500/600" width="500" height="600" alt="Dani Herrera, barbero especialista en cortes clásicos y color" loading="lazy">
+          <div class="card__body">
+            <h3>Dani Herrera · «El Chico»</h3>
+            <p>El benjamín, subcampeón de Andalucía de barbería 2024. Cortes clásicos con raya, texturas largas y todo lo que lleve tinte.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. HORARIOS -->
+  <section class="section" id="horario">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Horario</p>
+        <h2>Cuándo abrimos</h2>
+        <p class="lead">Con cita vas sobre seguro. Sin cita, por orden de llegada y solo de lunes a viernes; los sábados trabajamos únicamente con reserva a partir de las 12:00.</p>
+      </div>
+      <div class="hours reveal">
+        <div class="hours__row">
+          <span class="hours__day">Lunes a viernes</span>
+          <span class="hours__time">10:00 – 20:00 (mediodía sin cerrar)</span>
+        </div>
+        <div class="hours__row">
+          <span class="hours__day">Sábado</span>
+          <span class="hours__time">9:00 – 15:00 · sin cita solo hasta las 12:00</span>
+        </div>
+        <div class="hours__row">
+          <span class="hours__day">Domingo</span>
+          <span class="hours__time">Cerrado — el domingo se descansa</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. PRODUCTOS -->
+  <section class="section section--alt" id="productos">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Productos</p>
+        <h2>Lo que usamos, te lo llevas</h2>
+        <p class="lead">Solo vendemos lo que gastamos en el sillón cada día. Si te peinamos con algo y te gusta, te lo llevas a casa.</p>
+      </div>
+      <div class="grid grid--3 reveal">
+        <div class="feature">
+          <span class="feature__icon">💈</span>
+          <h3>Cera mate</h3>
+          <p>Fijación media sin brillo, se retrabaja durante el día y sale con un solo lavado. La que usamos en 9 de cada 10 cortes. <strong>14 €</strong></p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">🧴</span>
+          <h3>Aceite de barba</h3>
+          <p>Con argán y jojoba, aroma a cedro. Ablanda la barba, quita el picor y no engrasa. El remate de todos nuestros arreglos. <strong>12 €</strong></p>
+        </div>
+        <div class="feature">
+          <span class="feature__icon">✂️</span>
+          <h3>Pomada clásica</h3>
+          <p>Base agua, brillo medio y fijación fuerte para rayas al lado y peinados hacia atrás. La de toda la vida, bien hecha. <strong>15 €</strong></p>
+        </div>
+      </div>
+      <div class="chips reveal">
+        <span class="chip">Cera mate</span>
+        <span class="chip">Pomada base agua</span>
+        <span class="chip">Aceite de barba</span>
+        <span class="chip">Bálsamo after-shave</span>
+        <span class="chip">Champú de uso diario</span>
+        <span class="chip">Polvos de volumen</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. RESEÑAS -->
+  <section class="section" id="opiniones">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Opiniones</p>
+        <h2>Lo que se dice de nosotros</h2>
+        <p class="lead">4,9 sobre 5 en Google con más de 310 reseñas. Estas son de verdad, con nombre y apellido.</p>
+      </div>
+      <div class="reviews reveal">
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"Llevo dos años viniendo cada tres semanas con Sergio. Le enseñé una foto el primer día y desde entonces no hace falta ni hablar. El degradado me aguanta perfecto hasta la siguiente cita."</p>
+          <p class="review__author">Álvaro Jiménez</p>
+          <p class="review__zone">Corte + barba · Cliente fijo</p>
+        </article>
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"Me regalaron el ritual completo por mi cumpleaños. Una hora entera: toalla caliente, afeitado a navaja con Rafa y masaje en el lavado. Salí como nuevo y con una cerveza de por medio. Repetiré aunque no sea mi cumpleaños."</p>
+          <p class="review__author">Fernando Castaño</p>
+          <p class="review__zone">Ritual completo · Nervión</p>
+        </article>
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"Traigo a mi hijo de 6 años y es el único sitio donde no llora al cortarse el pelo. Dani lo sienta, le da conversación de fútbol y en veinte minutos está listo. La piruleta del final ayuda, todo hay que decirlo."</p>
+          <p class="review__author">Marta Gutiérrez</p>
+          <p class="review__zone">Corte infantil · Centro</p>
+        </article>
+        <article class="review">
+          <span class="stars" aria-label="5 de 5 estrellas">★★★★★</span>
+          <p class="review__text">"Reservé por WhatsApp un viernes a las 23:00 y a los cinco minutos tenía la cita confirmada para el sábado. Puntualidad inglesa: entré a mi hora en punto. En la Alfalfa, con lo que cuesta aparcar, se agradece no esperar."</p>
+          <p class="review__author">José Manuel Prieto</p>
+          <p class="review__zone">Afeitado a navaja · Alfalfa</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. RESERVA -->
+  <section class="section section--alt" id="cita">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Reserva</p>
+        <h2>Tu cita en 10 segundos</h2>
+        <p class="lead">Un WhatsApp y listo: dinos día, hora y con quién, y te confirmamos al momento. Sin apps, sin registros, sin llamadas.</p>
+      </div>
+      <div class="hero__actions reveal">
+        <a class="btn btn--wa btn--lg" href="https://wa.me/34692203981?text=Hola%2C%20quiero%20reservar%20cita%20en%20la%20barber%C3%ADa">Reservar cita por WhatsApp</a>
+        <a class="btn btn--ghost btn--lg" href="#servicios">Ver precios antes</a>
+      </div>
+      <p class="lead reveal">¿Prefieres formulario? También vale. Te respondemos por WhatsApp en menos de una hora dentro del horario de apertura.</p>
+      <form class="form reveal" id="reserva" data-demo-form data-toast="DEMO: esta cita llegaría al WhatsApp de la barbería al instante">
+        <div class="field">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="telefono">Teléfono</label>
+          <input id="telefono" name="telefono" type="tel" autocomplete="tel" required>
+        </div>
+        <div class="field">
+          <label for="barbero">Barbero</label>
+          <select id="barbero" name="barbero">
+            <option value="">Me da igual, el primero libre</option>
+            <option>Sergio «El Fino»</option>
+            <option>Rafa «Navaja»</option>
+            <option>Dani «El Chico»</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="servicio">Servicio</label>
+          <select id="servicio" name="servicio" required>
+            <option value="">Elige servicio</option>
+            <option>Corte de pelo — 15 €</option>
+            <option>Corte + barba — 24 €</option>
+            <option>Arreglo de barba — 12 €</option>
+            <option>Afeitado clásico a navaja — 18 €</option>
+            <option>Corte infantil — 12 €</option>
+            <option>Rapado — 12 €</option>
+            <option>Tinte / matiz de canas — 25 €</option>
+            <option>Ritual completo — 30 €</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="dia">Día</label>
+          <input id="dia" name="dia" type="date" required>
+        </div>
+        <div class="field">
+          <label for="hora">Hora preferida</label>
+          <select id="hora" name="hora" required>
+            <option value="">Elige franja</option>
+            <option>Por la mañana (10:00 – 13:00)</option>
+            <option>Mediodía (13:00 – 16:00)</option>
+            <option>Por la tarde (16:00 – 18:00)</option>
+            <option>Última hora (18:00 – 20:00)</option>
+          </select>
+        </div>
+        <button class="btn btn--primary btn--lg" type="submit">Pedir cita</button>
+        <p class="form__note">Te confirmamos la hora exacta por WhatsApp. Si no puedes venir, avisa con 2 horas: otro cliente querrá tu hueco.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- 10. MAPA -->
+  <section class="section" id="donde">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Dónde estamos</p>
+        <h2>En plena Alfalfa</h2>
+        <p class="lead">Calle Pérez Galdós 12 — a un minuto de la Plaza de la Alfalfa. Si vienes en coche, el parking más cercano es el de la Plaza de la Encarnación.</p>
+      </div>
+      <div class="map reveal">
+        <iframe title="Ubicación de Barbería Alfalfa en Sevilla" loading="lazy"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-6.0000,37.3840,-5.9800,37.3960&layer=mapnik&marker=37.3900,-5.9900"></iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div>
+      <strong>Barbería Alfalfa</strong>
+      <p>Calle Pérez Galdós 12<br>41004 Sevilla</p>
+    </div>
+    <div>
+      <strong>Contacto</strong>
+      <p>692 20 39 81<br>hola@barberiaalfalfa.es</p>
+    </div>
+    <div>
+      <strong>Horario</strong>
+      <p>Lunes a viernes: 10:00 – 20:00<br>Sábado: 9:00 – 15:00 · Domingo: cerrado</p>
+    </div>
+  </div>
+  <div class="container">
+    <p class="form__note">© <span data-year></span> Barbería Alfalfa. Demo de ejemplo — negocio ficticio.</p>
+  </div>
+  <span class="demo-ribbon">DEMO</span>
+</footer>
+</body>
+</html>

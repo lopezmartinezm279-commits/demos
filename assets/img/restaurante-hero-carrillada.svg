@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Plato de carrillada ibérica con salsa y guarnición visto desde arriba, con cubiertos">
+  <defs>
+    <linearGradient id="rhcBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#212819"/><stop offset="1" stop-color="#171c13"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#rhcBg)"/>
+  <circle cx="800" cy="450" r="420" fill="#c9a35f" opacity=".08"/>
+  <circle cx="1330" cy="200" r="200" fill="#8d3a47" opacity=".12"/>
+  <!-- plato -->
+  <circle cx="800" cy="450" r="330" fill="#f1ead9"/>
+  <circle cx="800" cy="450" r="262" fill="none" stroke="#c9a35f" stroke-width="10" opacity=".8"/>
+  <!-- salsa -->
+  <path d="M600 470 Q 590 340 740 320 Q 900 300 990 390 Q 1050 460 980 550 Q 890 640 740 610 Q 620 580 600 470 Z" fill="#722e39"/>
+  <!-- carrillada -->
+  <path d="M700 430 Q 710 360 800 356 Q 900 356 916 440 Q 924 520 840 544 Q 730 560 700 430 Z" fill="#8d3a47"/>
+  <path d="M730 420 Q 760 396 820 402" stroke="#c9a35f" stroke-width="12" fill="none" stroke-linecap="round" opacity=".8"/>
+  <!-- puré -->
+  <path d="M580 520 Q 560 460 626 452 Q 690 448 700 508 Q 704 560 640 568 Q 590 566 580 520 Z" fill="#f1ead9"/>
+  <path d="M580 520 Q 560 460 626 452 Q 690 448 700 508 Q 704 560 640 568 Q 590 566 580 520 Z" fill="none" stroke="#c9a35f" stroke-width="8"/>
+  <!-- guarnición: romero -->
+  <g transform="rotate(-24 940 320)" fill="#c9a35f">
+    <rect x="934" y="250" width="10" height="140" rx="5"/>
+    <path d="M939 260 L 906 232 M939 292 L 906 264 M939 324 L 906 296 M939 260 L 972 232 M939 292 L 972 264 M939 324 L 972 296" stroke="#c9a35f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+  <circle cx="920" cy="510" r="16" fill="#c9a35f"/>
+  <circle cx="660" cy="380" r="12" fill="#c9a35f"/>
+  <!-- tenedor -->
+  <g fill="#c9a35f" transform="translate(280,240)">
+    <rect x="26" y="0" width="14" height="96" rx="7"/>
+    <rect x="56" y="0" width="14" height="96" rx="7"/>
+    <rect x="86" y="0" width="14" height="96" rx="7"/>
+    <path d="M20 88 H 106 V 120 A 43 43 0 0 1 20 120 Z"/>
+    <rect x="52" y="150" width="22" height="270" rx="11"/>
+  </g>
+  <!-- servilleta y cuchillo -->
+  <rect x="1180" y="230" width="150" height="440" rx="16" fill="#f1ead9" opacity=".92"/>
+  <g fill="#c9a35f" transform="translate(1224,258)">
+    <path d="M20 4 C 60 4, 76 72, 68 146 L 20 146 Z"/>
+    <rect x="22" y="144" width="22" height="240" rx="11"/>
+  </g>
+</svg>

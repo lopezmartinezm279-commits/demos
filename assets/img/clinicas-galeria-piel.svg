@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" width="700" height="700" role="img" aria-label="Gota de sérum con ondas, símbolo de piel hidratada">
+  <defs>
+    <linearGradient id="cliGPieBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6f5330"/><stop offset="1" stop-color="#8d6b3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="url(#cliGPieBg)"/>
+  <circle cx="120" cy="140" r="140" fill="#c98d84" opacity=".14"/>
+  <!-- ondas concéntricas -->
+  <g fill="none" stroke="#fdfbf8" stroke-linecap="round">
+    <circle cx="350" cy="400" r="230" stroke-width="6" opacity=".25"/>
+    <circle cx="350" cy="400" r="180" stroke-width="8" opacity=".35"/>
+  </g>
+  <!-- gota -->
+  <path d="M350 130 C270 250 220 320 220 410 A130 130 0 0 0 480 410 C480 320 430 250 350 130 Z" fill="#fdfbf8"/>
+  <path d="M282 420 A68 68 0 0 0 350 488" fill="none" stroke="#c98d84" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="350" cy="404" r="34" fill="#c98d84" opacity=".5"/>
+  <!-- destello -->
+  <path d="M560 560 l9 26 26 9 -26 9 -9 26 -9 -26 -26 -9 26 -9 z" fill="#fdfbf8" opacity=".85"/>
+</svg>
